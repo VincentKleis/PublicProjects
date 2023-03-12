@@ -1,0 +1,353 @@
+@prefix Example: <http://example.org/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schm: <http://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+Example:Knows a rdfs:Resource ;
+    rdfs:subPropertyOf Example:Married .
+
+Example:Student a rdfs:Resource ;
+    rdfs:subClassOf foaf:Person .
+
+Example:capital a rdfs:Resource ;
+    rdfs:subClassOf Example:city .
+
+Example:degree a rdfs:Resource ;
+    rdfs:subClassOf Example:Graduation .
+
+Example:degreeFrom a rdfs:Resource ;
+    rdfs:subPropertyOf Example:graduation .
+
+Example:degreeSubject a rdfs:Resource ;
+    rdfs:subPropertyOf Example:expertise .
+
+rdfs:label a rdfs:Resource ;
+    rdfs:subPropertyOf Example:Name .
+
+dbr:Alumni a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf dbr:Alumni .
+
+dbr:Bachelor_of_Science a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf dbr:Bachelor_of_Science .
+
+dbr:Biology a rdfs:Resource .
+
+dbr:Birds a rdfs:Resource .
+
+dbr:Canada a rdfs:Resource .
+
+<http://dbpedia.org/resource/Category:Air_pollution> a rdfs:Resource .
+
+dbr:Chemestry a rdfs:Resource .
+
+dbr:Chocolate a rdfs:Resource .
+
+dbr:City a rdfs:Resource .
+
+dbr:Cycling a rdfs:Resource .
+
+dbr:Denmark a rdfs:Resource .
+
+dbr:Ecology a rdfs:Resource .
+
+dbr:Education a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf dbr:Education .
+
+dbr:Environment a rdfs:Resource .
+
+dbr:Expert a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf dbr:Expert .
+
+dbr:Germany a rdfs:Resource .
+
+dbr:Hiking a rdfs:Resource .
+
+dbr:Italy a rdfs:Resource .
+
+dbr:Mariage a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf dbr:Mariage .
+
+dbr:Master_of_Science a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf dbr:Master_of_Science .
+
+dbr:Music a rdfs:Resource .
+
+dbr:Photographing a rdfs:Resource .
+
+dbr:Portugal a rdfs:Resource .
+
+dbr:Spain a rdfs:Resource .
+
+dbr:Student a rdfs:Resource .
+
+dbr:Sweeden a rdfs:Resource .
+
+dbr:Toxic_waste a rdfs:Resource .
+
+dbr:Traveling a rdfs:Resource .
+
+dbr:USA a rdfs:Resource .
+
+dbr:Waste_management a rdfs:Resource .
+
+dbr:berkly a rdfs:Resource .
+
+dbr:biology a rdfs:Resource .
+
+dbr:california a rdfs:Resource .
+
+Example:Graduation a rdfs:Resource .
+
+Example:Married a rdfs:Resource .
+
+Example:Mary a dbr:Student,
+        rdfs:Resource,
+        foaf:Person ;
+    Example:age 26 ;
+    Example:interest dbr:Biology,
+        dbr:Chocolate,
+        dbr:Hiking ;
+    owl:hasValue dbr:Kindness .
+
+Example:Name a rdfs:Resource .
+
+Example:Subject a rdfs:Resource .
+
+Example:University_of_California a Example:Higher_Education_Institute,
+        Example:University,
+        rdfs:Resource .
+
+Example:University_of_Valencia a Example:Higher_Education_Institute,
+        Example:University,
+        rdfs:Resource .
+
+Example:age a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf Example:age .
+
+Example:at a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf Example:at .
+
+Example:city a rdfs:Resource .
+
+Example:expertise a rdfs:Resource ;
+    rdfs:domain foaf:Person ;
+    rdfs:range Example:Subject .
+
+Example:firstName a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf Example:firstName .
+
+Example:hasPerson a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf Example:hasPerson .
+
+Example:interest a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf Example:interest .
+
+Example:knows a rdf:Property ;
+    rdfs:subPropertyOf Example:knows .
+
+Example:lastName a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf Example:lastName .
+
+schm:Country a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf schm:Country .
+
+schm:city a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf schm:city .
+
+schm:date a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf schm:date .
+
+schm:location a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf schm:location .
+
+schm:postalCode a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf schm:postalCode .
+
+schm:state a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf schm:state .
+
+schm:streetAdress a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf schm:streetAdress .
+
+rdf:type a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf rdf:type .
+
+rdfs:domain a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf rdfs:domain .
+
+rdfs:range a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf rdfs:range .
+
+rdfs:subClassOf a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf rdfs:subClassOf .
+
+rdfs:subPropertyOf a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf rdfs:subPropertyOf .
+
+owl:hasValue a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf owl:hasValue .
+
+"2011"^^xsd:gYear a Example:Higher_Education_Institute,
+        rdfs:Resource .
+
+"2015"^^xsd:gYear a Example:Higher_Education_Institute,
+        rdfs:Resource .
+
+"2014-01"^^xsd:gYearMonth a rdfs:Resource .
+
+26 a rdfs:Resource .
+
+27 a rdfs:Resource .
+
+"1516 Henry Street" a rdfs:Resource .
+
+"Carrer de la Guardia Civil 20" a rdfs:Resource .
+
+"Dominguez" a rdfs:Resource .
+
+"Emma" a rdfs:Resource .
+
+dbo:capital a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf dbo:capital .
+
+dbr:Kindness a rdfs:Resource .
+
+dbr:Travel a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf dbr:Travel .
+
+dbr:Valencia a rdfs:Resource .
+
+Example:Cade a rdfs:Resource,
+        foaf:Person ;
+    dbr:Education [ a rdfs:Resource,
+                foaf:Person ;
+            dbr:Alumni Example:University_of_California ;
+            dbr:Bachelor_of_Science dbr:biology ;
+            Example:graduation "2011"^^xsd:gYear ] ;
+    dbr:Mariage Example:Mary ;
+    dbr:Travel dbr:Canada,
+        dbr:France,
+        dbr:Paris ;
+    Example:age 27 ;
+    Example:at Example:Meeting ;
+    Example:interest dbr:Birds,
+        dbr:Ecology,
+        dbr:Environment,
+        dbr:Photographing,
+        dbr:Traveling ;
+    Example:knows Example:Emma ;
+    schm:adress [ a schm:adress,
+                rdfs:Resource ;
+            schm:Country dbr:USA ;
+            schm:city dbr:berkly ;
+            schm:postalCode "46020"^^schm:postalCode,
+                "94709"^^schm:postalCode ;
+            schm:state dbr:california ;
+            schm:streetAdress "1516 Henry Street" ] ;
+    owl:hasValue dbr:Kindness .
+
+Example:Emma a rdfs:Resource,
+        foaf:Person ;
+    dbr:Education [ a rdfs:Resource,
+                foaf:Person ;
+            dbr:Alumni Example:University_of_Valencia ;
+            dbr:Expert <http://dbpedia.org/resource/Category:Air_pollution>,
+                dbr:Toxic_waste,
+                dbr:Waste_management ;
+            dbr:Master_of_Science dbr:Chemestry ;
+            Example:graduation "2015"^^xsd:gYear ] ;
+    dbr:Travel dbr:Denmark,
+        dbr:France,
+        dbr:Germany,
+        dbr:Italy,
+        dbr:Paris,
+        dbr:Portugal,
+        dbr:Sweeden ;
+    Example:at Example:Meeting ;
+    Example:firstName "Emma" ;
+    Example:interest [ a rdfs:Resource ;
+            Example:interest dbr:Cycling,
+                dbr:Music,
+                dbr:Travel ] ;
+    Example:knows Example:Cade ;
+    Example:lastName "Dominguez" ;
+    schm:adress [ a schm:adress,
+                rdfs:Resource ;
+            schm:Country dbr:Spain ;
+            schm:city dbr:Valencia ;
+            schm:postalCode "46020"^^schm:postalCode,
+                "94709"^^schm:postalCode ;
+            schm:state dbr:Valencia ;
+            schm:streetAdress "Carrer de la Guardia Civil 20" ] .
+
+Example:Meeting a rdfs:Resource ;
+    Example:hasPerson Example:Cade,
+        Example:Emma ;
+    schm:date "2014-01"^^xsd:gYearMonth ;
+    schm:location dbr:Paris .
+
+Example:University a rdfs:Resource ;
+    rdfs:subClassOf Example:Higher_Education_Institute .
+
+Example:graduation a rdf:Property,
+        rdfs:Resource ;
+    rdfs:domain foaf:Person ;
+    rdfs:range Example:Higher_Education_Institute ;
+    rdfs:subPropertyOf Example:graduation .
+
+"46020"^^schm:postalCode a rdfs:Resource .
+
+"94709"^^schm:postalCode a rdfs:Resource .
+
+dbr:France a rdfs:Resource ;
+    dbo:capital dbr:Paris .
+
+schm:adress a rdf:Property,
+        rdfs:Resource ;
+    rdfs:subPropertyOf schm:adress .
+
+dbr:Paris a dbo:capital,
+        dbr:City,
+        rdfs:Resource ;
+    rdfs:subClassOf dbr:France .
+
+Example:Higher_Education_Institute a rdfs:Resource .
+
+foaf:Person a rdfs:Resource .
+
+rdf:Property a rdfs:Resource .
+
+rdfs:Resource a rdfs:Resource .
+
