@@ -8,3 +8,4 @@ INFO212 = Systemutvikling / Prosjekt organisering
 :Bestått (ingen karakterer)
 INFO216 = Knowledge Graphs
 :B
+INFO284 = Machinelearning / programering av moderne kunstige inteligenser
