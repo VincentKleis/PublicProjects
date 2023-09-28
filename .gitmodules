@@ -1,0 +1,6 @@
+[submodule "Website"]
+	path = Website
+	url = git@github.com:VincentKleis/Website.git
+[submodule "Website programming/Website_practice"]
+	path = Website programming/Website_practice
+	url = git@github.com:VincentKleis/Website_practice.git
