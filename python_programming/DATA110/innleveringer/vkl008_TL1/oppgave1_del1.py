@@ -1,1 +1,0 @@
-print('Vincent\nSickinghe\nKleis')

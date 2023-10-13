@@ -1,1 +1,0 @@
-[n for n in [doble(x for x in L)] if partal(n)]

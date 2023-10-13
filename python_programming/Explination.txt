@@ -1,7 +1,0 @@
-"timeline initiation" is a script ment to initiate the datastructure for oure purpose in MySQL,
-but first you wil need to install the needed connectors and the server it self, to do this i made a few guides in the git wiki section.
-
-the file in "historium_register" named "historium_classes" is a start to how to make a logg_in function and a register function.
-the register function is halfway compleeted, it has the needed python functionality to create the values a profile need, but is not able
-to send them to the SQL database. so something goes wrong when trying to send the variables as strings to the MySQl database. 
-in MySQL workbench the same problem presents it self if you do not properly enclose your data in quotationmarks ('') so i think the variables are sent from python without quotationmarks.
