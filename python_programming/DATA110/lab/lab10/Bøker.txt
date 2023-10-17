@@ -1,0 +1,9 @@
+Blackburn , Modal logic , logikk , 2002
+Brook , Knowledge and Mind , filosofi , 2000
+Dowek , Computation, proof, machine , matematikk , 2015
+Dowek , Proofs and algorithms , logikk , 2011
+Hein , Discrete mathematics , matematikk , 2003
+Horstmann , Python for everyone , programmering , 2016
+Lowe , A survey of metaphysics , filosofi , 2002
+Severance , Java for somebody , programmering , 1999
+Severance , Python for everybody , programmering , 2016

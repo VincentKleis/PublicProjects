@@ -1,0 +1,1766 @@
+@prefix ex: <http://example.org/> .
+@prefix sem: <http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix tl: <http://purl.org/NET/c4dm/timeline.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:bruce-babbitt a sem:Event ;
+    tl:duationInt "651"^^<int> ;
+    sem:hasBeginTimeStamp "1998-03-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1999-12-30"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:bush-clinton-passport a sem:Event ;
+    tl:duationInt "1081"^^<int> ;
+    sem:hasBeginTimeStamp "1992-12-14"^^xsd:date ;
+    sem:hasEndTimeStamp "1995-11-30"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:cisneros a sem:Event ;
+    tl:duationInt "3387"^^<int> ;
+    sem:hasBeginTimeStamp "1995-05-24"^^xsd:date ;
+    sem:hasEndTimeStamp "2004-08-31"^^xsd:date ;
+    sem:hasSubEvent ex:Allen_Wooten_guilty-plea,
+        ex:Henry_Cisneros_guilty-plea,
+        ex:John_D_Rosales_indictment,
+        ex:Linda_(Medlar)_Jones_guilty-plea,
+        ex:Patsy_Wooten_guilty-plea,
+        ex:Sylvia_Arce-Garcia_indictment .
+
+ex:deaver a sem:Event ;
+    tl:duationInt "1175"^^<int> ;
+    sem:hasBeginTimeStamp "1986-05-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1989-08-16"^^xsd:date ;
+    sem:hasSubEvent ex:Michael_Deaver_conviction .
+
+ex:edwin-meese a sem:Event ;
+    tl:duationInt "171"^^<int> ;
+    sem:hasBeginTimeStamp "1984-04-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1984-09-20"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:eli-segal a sem:Event ;
+    tl:duationInt "267"^^<int> ;
+    sem:hasBeginTimeStamp "1996-11-27"^^xsd:date ;
+    sem:hasEndTimeStamp "1997-08-21"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:espy a sem:Event ;
+    tl:duationInt "2335"^^<int> ;
+    sem:hasBeginTimeStamp "1994-09-09"^^xsd:date ;
+    sem:hasEndTimeStamp "2001-01-30"^^xsd:date ;
+    sem:hasSubEvent ex:Alverez_Ferrouillet_conviction,
+        ex:Archibald_Schaffer_conviction,
+        <http://example.org/Brooke_Keith_Mitchell,_Jr_indictment>,
+        <http://example.org/Brooke_Keith_Mitchell,_Sr_guilty-plea>,
+        ex:Gary_Black_indictment,
+        <http://example.org/Henry_Espy,_Jr_indictment>,
+        ex:Jack_L_Williams_conviction,
+        ex:James_Lake_guilty-plea,
+        ex:John_Hemmingson_conviction,
+        ex:Mike_Espy_indictment,
+        <http://example.org/Norris_Faust,_Jr_indictment>,
+        ex:Richard_Douglas_guilty-plea,
+        ex:Ronald_H_Blackley_conviction .
+
+ex:hamilton-jordan a sem:Event ;
+    tl:duationInt "181"^^<int> ;
+    sem:hasBeginTimeStamp "1979-11-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1980-05-28"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:herman a sem:Event ;
+    tl:duationInt "682"^^<int> ;
+    sem:hasBeginTimeStamp "1998-05-26"^^xsd:date ;
+    sem:hasEndTimeStamp "2000-04-07"^^xsd:date ;
+    sem:hasSubEvent ex:Abdul_Rahman_indictment .
+
+ex:iran-contra a sem:Event ;
+    tl:duationInt "2419"^^<int> ;
+    sem:hasBeginTimeStamp "1986-12-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1993-08-03"^^xsd:date ;
+    sem:hasSubEvent ex:Alan_G_Fiers_guilty-plea,
+        ex:Albert_Hakim_guilty-plea,
+        ex:Carl_R_Channell_guilty-plea,
+        ex:Caspar_Weinberger_indictment,
+        ex:Clair_E_George_conviction,
+        ex:Duane_Clarridge_indictment,
+        ex:Elliott_Abrams_guilty-plea,
+        ex:John_Poindexter_conviction,
+        ex:Joseph_Fernandez_indictment,
+        ex:Oliver_North_conviction,
+        ex:Richard_Miller_guilty-plea,
+        ex:Richard_Secord_guilty-plea,
+        ex:Robert_McFarlane_guilty-plea,
+        ex:Thomas_G_Clines_conviction .
+
+ex:pierce a sem:Event ;
+    tl:duationInt "3162"^^<int> ;
+    sem:hasBeginTimeStamp "1990-03-01"^^xsd:date ;
+    sem:hasEndTimeStamp "1998-10-27"^^xsd:date ;
+    sem:hasSubEvent ex:Carlos_A_Figueroa_guilty-plea,
+        ex:Catalina_Vasquez_Villalpando_guilty-plea,
+        ex:Deborah_Gore_Dean_conviction,
+        ex:Elaine_Richardson_guilty-plea,
+        ex:J_Michael_Queenan_conviction,
+        ex:James_G_Watt_guilty-plea,
+        ex:Joseph_A_Straus_guilty-plea,
+        ex:Lance_H_Wilson_conviction,
+        ex:Leonard_Briscoe_conviction,
+        ex:Maurice_Steier_conviction,
+        ex:Philip_D_Winn_guilty-plea,
+        ex:Phillip_McCafferty_indictment,
+        ex:Robert_B_Olsen_guilty-plea,
+        ex:Ronald_L_Mahon_conviction,
+        ex:Samuel_P_Singletary_guilty-plea,
+        ex:Silvio_J_DeBartolomeis_guilty-plea,
+        ex:Thomas_Demery_guilty-plea,
+        ex:Victor_R_Cruse_indictment .
+
+ex:plame a sem:Event ;
+    tl:duationInt "1161"^^<int> ;
+    sem:hasBeginTimeStamp "2003-12-31"^^xsd:date ;
+    sem:hasEndTimeStamp "2007-03-06"^^xsd:date ;
+    sem:hasSubEvent <http://example.org/I_Lewis_'Scooter'_Libby_conviction> .
+
+ex:raymond-donovan a sem:Event ;
+    tl:duationInt "178"^^<int> ;
+    sem:hasBeginTimeStamp "1981-12-29"^^xsd:date ;
+    sem:hasEndTimeStamp "1982-06-25"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:ron-brown a sem:Event ;
+    tl:duationInt "497"^^<int> ;
+    sem:hasBeginTimeStamp "1995-07-06"^^xsd:date ;
+    sem:hasEndTimeStamp "1996-11-14"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:russia a sem:Event ;
+    tl:duationInt "659"^^<int> ;
+    sem:hasBeginTimeStamp "2017-05-17"^^xsd:date ;
+    sem:hasEndTimeStamp "nan"^^xsd:date ;
+    sem:hasSubEvent ex:Alex_Van_Der_Zwaan_guilty-plea,
+        ex:George_Papadopolous_guilty-plea,
+        ex:Konstantin_Kilimnik_indictment,
+        ex:Michael_Cohen_guilty-plea,
+        ex:Michael_Flynn_guilty-plea,
+        ex:Paul_Manafort_conviction,
+        ex:Richard_Pinedo_guilty-plea,
+        ex:Rick_Gates_guilty-plea,
+        ex:Roger_Stone_indictment,
+        ex:Russian_national_10_indictment,
+        ex:Russian_national_11_indictment,
+        ex:Russian_national_12_indictment,
+        ex:Russian_national_13_indictment,
+        ex:Russian_national_14_indictment,
+        ex:Russian_national_15_indictment,
+        ex:Russian_national_16_indictment,
+        ex:Russian_national_17_indictment,
+        ex:Russian_national_18_indictment,
+        ex:Russian_national_19_indictment,
+        ex:Russian_national_1_indictment,
+        ex:Russian_national_20_indictment,
+        ex:Russian_national_21_indictment,
+        ex:Russian_national_22_indictment,
+        ex:Russian_national_23_indictment,
+        ex:Russian_national_24_indictment,
+        ex:Russian_national_25_indictment,
+        ex:Russian_national_2_indictment,
+        ex:Russian_national_3_indictment,
+        ex:Russian_national_4_indictment,
+        ex:Russian_national_5_indictment,
+        ex:Russian_national_6_indictment,
+        ex:Russian_national_7_indictment,
+        ex:Russian_national_8_indictment,
+        ex:Russian_national_9_indictment .
+
+ex:sealed-investigation-hwbush-1 a sem:Event ;
+    tl:duationInt "453"^^<int> ;
+    sem:hasBeginTimeStamp "1991-04-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1992-07-15"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:sealed-investigation-hwbush-2 a sem:Event ;
+    tl:duationInt "453"^^<int> ;
+    sem:hasBeginTimeStamp "1991-04-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1992-07-15"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:sealed-investigation-reagan a sem:Event ;
+    tl:duationInt "364"^^<int> ;
+    sem:hasBeginTimeStamp "1986-12-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1987-12-18"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:ted-olson a sem:Event ;
+    tl:duationInt "1056"^^<int> ;
+    sem:hasBeginTimeStamp "1986-04-23"^^xsd:date ;
+    sem:hasEndTimeStamp "1989-03-14"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:tim-kraft a sem:Event ;
+    tl:duationInt "493"^^<int> ;
+    sem:hasBeginTimeStamp "1980-09-09"^^xsd:date ;
+    sem:hasEndTimeStamp "1982-01-15"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:waco a sem:Event ;
+    tl:duationInt "226"^^<int> ;
+    sem:hasBeginTimeStamp "1999-09-09"^^xsd:date ;
+    sem:hasEndTimeStamp "2000-04-22"^^xsd:date ;
+    sem:hasSubEvent ex:nan_nan .
+
+ex:watergate a sem:Event ;
+    tl:duationInt "1492"^^<int>,
+        "1493"^^<int>,
+        "1494"^^<int> ;
+    sem:hasBeginTimeStamp "1973-05-19"^^xsd:date ;
+    sem:hasEndTimeStamp "1977-06-19"^^xsd:date ;
+    sem:hasSubEvent ex:Armand_Hammer_guilty-plea,
+        <http://example.org/Augustus_Robbins,_III_conviction>,
+        ex:Bernard_L_Barker_conviction,
+        ex:Charles_Colson_guilty-plea,
+        ex:Charles_N_Huseman_guilty-plea,
+        <http://example.org/Claude_C_Wild,_Jr_guilty-plea>,
+        ex:David_L_Parr_guilty-plea,
+        ex:Donald_Segretti_guilty-plea,
+        ex:Dwayne_O_Andreas_indictment,
+        ex:Dwight_Chapin_conviction,
+        ex:E_Howard_Hunt_guilty-plea,
+        ex:Ed_Reinecke_conviction,
+        ex:Edward_Morgan_guilty-plea,
+        ex:Egil_Krogh_guilty-plea,
+        ex:Eugenio_R_Martinez_conviction,
+        ex:Eugenio_R_Martinez_guilty-plea,
+        ex:Felipe_De_Diego_indictment,
+        ex:Francis_X_Carroll_guilty-plea,
+        ex:Frank_A_Sturgis_guilty-plea,
+        ex:Frank_DeMarco_indictment,
+        ex:Frederick_LaRue_guilty-plea,
+        ex:G_Gordon_Liddy_conviction,
+        ex:George_Hearing_guilty-plea,
+        ex:George_M_Steinbrenner_guilty-plea,
+        ex:Gordon_C_Strachan_indictment,
+        ex:HR_Haldeman_conviction,
+        ex:H_Everett_Olson_guilty-plea,
+        ex:Harding_L_Lawrence_guilty-plea,
+        ex:Harold_Nelson_guilty-plea,
+        ex:Harry_Dent_guilty-plea,
+        ex:Harry_Heltzer_guilty-plea,
+        ex:Harry_L_Sears_indictment,
+        ex:Harry_Ratrie_conviction,
+        ex:Herbert_Kalmbach_guilty-plea,
+        ex:Herbert_Porter_guilty-plea,
+        ex:Jack_A_Gleason_guilty-plea,
+        ex:Jack_Chestnut_conviction,
+        ex:Jake_Jacobsen_guilty-plea,
+        ex:James_Allen_guilty-plea,
+        ex:James_R_Jones_guilty-plea,
+        ex:James_W_McCord_conviction,
+        ex:Jeb_Magruder_guilty-plea,
+        ex:John_B_Connally_indictment,
+        ex:John_D_Ehrlichman_conviction,
+        ex:John_H_Melcher_guilty-plea,
+        ex:John_N_Mitchell_conviction,
+        ex:John_Valentine_guilty-plea,
+        ex:John_W_Dean_III_guilty-plea,
+        ex:Kenneth_W_Parkinson_indictment,
+        ex:Maurice_H_Stans_guilty-plea,
+        ex:Maurice_H_Stans_indictment,
+        ex:Norman_Sherman_guilty-plea,
+        ex:Orin_E_Atkins_guilty-plea,
+        ex:Ralph_Newman_conviction,
+        ex:Ray_Dubrowin_guilty-plea,
+        ex:Raymond_Abendroth_guilty-plea,
+        ex:Richard_Kleindienst_guilty-plea,
+        ex:Richard_L_Allison_guilty-plea,
+        ex:Robert_C_Mardian_conviction,
+        ex:Robert_L_Vesco_indictment,
+        ex:Russell_DeYoung_guilty-plea,
+        ex:Stuart_Russell_indictment,
+        ex:Thomas_V_Jones_guilty-plea,
+        ex:Tim_M_Babcock_guilty-plea,
+        ex:Virgilio_R_Gonzalez_guilty-plea,
+        ex:W_Marvin_Watson_guilty-plea,
+        ex:Wendell_Wyatt_conviction,
+        ex:William_C_Viglia_guilty-plea,
+        <http://example.org/William_Lyles,_Sr_guilty-plea>,
+        ex:William_W_Keeler_guilty-plea .
+
+ex:wedtech a sem:Event ;
+    tl:duationInt "522"^^<int> ;
+    sem:hasBeginTimeStamp "1987-02-02"^^xsd:date ;
+    sem:hasEndTimeStamp "1988-07-08"^^xsd:date ;
+    sem:hasSubEvent ex:Lyn_Nofziger_conviction .
+
+ex:whitewater a sem:Event ;
+    tl:duationInt "2770"^^<int> ;
+    sem:hasBeginTimeStamp "1994-08-05"^^xsd:date ;
+    sem:hasEndTimeStamp "2002-03-06"^^xsd:date ;
+    sem:hasSubEvent ex:Charles_C_Owen_indictment,
+        ex:Charles_Matthews_guilty-plea,
+        ex:Christopher_Wade_guilty-plea,
+        ex:David_L_Hale_guilty-plea,
+        ex:Eugene_Fitzhugh_guilty-plea,
+        ex:Herbert_Branscum_indictment,
+        ex:James_McDougal_conviction,
+        ex:Jim_Guy_Tucker_conviction,
+        ex:John_Haley_guilty-plea,
+        ex:Julie_Hiatt_Steele_indictment,
+        ex:Larry_Kuca_guilty-plea,
+        ex:Michael_C_Schaufele_indictment,
+        ex:Neal_T_Ainley_guilty-plea,
+        ex:Robert_Hill_indictment,
+        ex:Robert_W_Palmer_guilty-plea,
+        ex:Stephen_A_Smith_guilty-plea,
+        ex:Susan_McDougal_conviction,
+        ex:Suzanna_Hubbell_indictment,
+        ex:Webster_L_Hubbell_guilty-plea,
+        ex:William_J_Marks_Sr_guilty-plea .
+
+ex:Abdul_Rahman_indictment a sem:Event ;
+    ex:IndictmenDays "631.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Abdul_Rahman"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Alan_G_Fiers_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1663.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "1664.0"^^<int> ;
+    sem:hasActor "Alan_G_Fiers"^^<str> ;
+    sem:hasTime "1991-07-10"^^xsd:date .
+
+ex:Albert_Hakim_guilty-plea a sem:Event ;
+    ex:IndictmenDays "453.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1068.0"^^<int> ;
+    sem:hasActor "Albert_Hakim"^^<str> ;
+    sem:hasTime "1989-11-21"^^xsd:date .
+
+ex:Alex_Van_Der_Zwaan_guilty-plea a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "279.0"^^<int> ;
+    sem:hasActor "Alex_Van_Der_Zwaan"^^<str> ;
+    sem:hasTime "2018-02-20"^^xsd:date .
+
+ex:Allen_Wooten_guilty-plea a sem:Event ;
+    ex:IndictmenDays "843.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "967.0"^^<int> ;
+    sem:hasActor "Allen_Wooten"^^<str> ;
+    sem:hasTime "1998-01-15"^^xsd:date .
+
+ex:Alverez_Ferrouillet_conviction a sem:Event ;
+    ex:IndictmenDays "670.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "833.0"^^<int> ;
+    sem:hasActor "Alverez_Ferrouillet"^^<str> ;
+    sem:hasTime "1996-12-20"^^xsd:date .
+
+ex:Archibald_Schaffer_conviction a sem:Event ;
+    ex:IndictmenDays "1225.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "1386.0"^^<int> ;
+    sem:hasActor "Archibald_Schaffer"^^<str> ;
+    sem:hasTime "1998-06-26"^^xsd:date .
+
+ex:Armand_Hammer_guilty-plea a sem:Event ;
+    ex:IndictmenDays "865.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "865.0"^^<int> ;
+    sem:hasActor "Armand_Hammer"^^<str> ;
+    sem:hasTime "1976-03-04"^^xsd:date .
+
+<http://example.org/Augustus_Robbins,_III_conviction> a sem:Event ;
+    ex:IndictmenDays "619.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "619.0"^^<int> ;
+    sem:hasActor "Augustus_Robbins,_III"^^<str> ;
+    sem:hasTime "1975-01-28"^^xsd:date .
+
+ex:Bernard_L_Barker_conviction a sem:Event ;
+    ex:IndictmenDays "-246.0"^^<float>,
+        "292.0"^^<float> ;
+    ex:Overturned "false"^^<bool>,
+        "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-124.0"^^<int>,
+        "419.0"^^<int> ;
+    sem:hasActor "Bernard_L_Barker"^^<str> ;
+    sem:hasTime "1973-01-15"^^xsd:date,
+        "1974-07-12"^^xsd:date .
+
+<http://example.org/Brooke_Keith_Mitchell,_Jr_indictment> a sem:Event ;
+    ex:IndictmenDays "622.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Brooke_Keith_Mitchell,_Jr"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+<http://example.org/Brooke_Keith_Mitchell,_Sr_guilty-plea> a sem:Event ;
+    ex:IndictmenDays "622.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "796.0"^^<int> ;
+    sem:hasActor "Brooke_Keith_Mitchell,_Sr"^^<str> ;
+    sem:hasTime "1996-11-13"^^xsd:date .
+
+ex:Carl_R_Channell_guilty-plea a sem:Event ;
+    ex:IndictmenDays "131.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "131.0"^^<int> ;
+    sem:hasActor "Carl_R_Channell"^^<str> ;
+    sem:hasTime "1987-04-29"^^xsd:date .
+
+ex:Carlos_A_Figueroa_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1357.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1627.0"^^<int> ;
+    sem:hasActor "Carlos_A_Figueroa"^^<str> ;
+    sem:hasTime "1994-08-14"^^xsd:date .
+
+ex:Caspar_Weinberger_indictment a sem:Event ;
+    ex:IndictmenDays "2006.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Caspar_Weinberger"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Catalina_Vasquez_Villalpando_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1449.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1449.0"^^<int> ;
+    sem:hasActor "Catalina_Vasquez_Villalpando"^^<str> ;
+    sem:hasTime "1994-02-17"^^xsd:date .
+
+ex:Charles_C_Owen_indictment a sem:Event ;
+    ex:IndictmenDays "1364.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Charles_C_Owen"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Charles_Colson_guilty-plea a sem:Event ;
+    ex:IndictmenDays "286.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "380.0"^^<int> ;
+    sem:hasActor "Charles_Colson"^^<str> ;
+    sem:hasTime "1974-06-03"^^xsd:date .
+
+ex:Charles_Matthews_guilty-plea a sem:Event ;
+    ex:IndictmenDays "-316.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-43.0"^^<int> ;
+    sem:hasActor "Charles_Matthews"^^<str> ;
+    sem:hasTime "1994-06-23"^^xsd:date .
+
+ex:Charles_N_Huseman_guilty-plea a sem:Event ;
+    ex:IndictmenDays "563.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "563.0"^^<int> ;
+    sem:hasActor "Charles_N_Huseman"^^<str> ;
+    sem:hasTime "1974-12-03"^^xsd:date .
+
+ex:Christopher_Wade_guilty-plea a sem:Event ;
+    ex:IndictmenDays "228.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "228.0"^^<int> ;
+    sem:hasActor "Christopher_Wade"^^<str> ;
+    sem:hasTime "1995-03-21"^^xsd:date .
+
+ex:Clair_E_George_conviction a sem:Event ;
+    ex:IndictmenDays "1722.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "2183.0"^^<int> ;
+    sem:hasActor "Clair_E_George"^^<str> ;
+    sem:hasTime "1992-12-10"^^xsd:date .
+
+<http://example.org/Claude_C_Wild,_Jr_guilty-plea> a sem:Event ;
+    ex:IndictmenDays "178.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Claude_C_Wild,_Jr"^^<str> ;
+    sem:hasTime "1973-11-13"^^xsd:date .
+
+ex:David_L_Hale_guilty-plea a sem:Event ;
+    ex:IndictmenDays "-316.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-136.0"^^<int> ;
+    sem:hasActor "David_L_Hale"^^<str> ;
+    sem:hasTime "1994-03-22"^^xsd:date .
+
+ex:David_L_Parr_guilty-plea a sem:Event ;
+    ex:IndictmenDays "430.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "430.0"^^<int> ;
+    sem:hasActor "David_L_Parr"^^<str> ;
+    sem:hasTime "1974-07-23"^^xsd:date .
+
+ex:Deborah_Gore_Dean_conviction a sem:Event ;
+    ex:IndictmenDays "789.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1335.0"^^<int> ;
+    sem:hasActor "Deborah_Gore_Dean"^^<str> ;
+    sem:hasTime "1993-10-26"^^xsd:date .
+
+ex:Donald_Segretti_guilty-plea a sem:Event ;
+    ex:IndictmenDays "135.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "135.0"^^<int> ;
+    sem:hasActor "Donald_Segretti"^^<str> ;
+    sem:hasTime "1973-10-01"^^xsd:date .
+
+ex:Duane_Clarridge_indictment a sem:Event ;
+    ex:IndictmenDays "1803.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Duane_Clarridge"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Dwayne_O_Andreas_indictment a sem:Event ;
+    ex:IndictmenDays "153.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Dwayne_O_Andreas"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Dwight_Chapin_conviction a sem:Event ;
+    ex:IndictmenDays "194.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "321.0"^^<int> ;
+    sem:hasActor "Dwight_Chapin"^^<str> ;
+    sem:hasTime "1974-04-05"^^xsd:date .
+
+ex:E_Howard_Hunt_guilty-plea a sem:Event ;
+    ex:IndictmenDays "-246.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-128.0"^^<int> ;
+    sem:hasActor "E_Howard_Hunt"^^<str> ;
+    sem:hasTime "1973-01-11"^^xsd:date .
+
+ex:Ed_Reinecke_conviction a sem:Event ;
+    ex:IndictmenDays "319.0"^^<float> ;
+    ex:Overturned "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "434.0"^^<int> ;
+    sem:hasActor "Ed_Reinecke"^^<str> ;
+    sem:hasTime "1974-07-27"^^xsd:date .
+
+ex:Edward_Morgan_guilty-plea a sem:Event ;
+    ex:IndictmenDays "538.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "538.0"^^<int> ;
+    sem:hasActor "Edward_Morgan"^^<str> ;
+    sem:hasTime "1974-11-08"^^xsd:date .
+
+ex:Egil_Krogh_guilty-plea a sem:Event ;
+    ex:IndictmenDays "145.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "195.0"^^<int> ;
+    sem:hasActor "Egil_Krogh"^^<str> ;
+    sem:hasTime "1973-11-30"^^xsd:date .
+
+ex:Elaine_Richardson_guilty-plea a sem:Event ;
+    ex:IndictmenDays "903.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "995.0"^^<int> ;
+    sem:hasActor "Elaine_Richardson"^^<str> ;
+    sem:hasTime "1992-11-20"^^xsd:date .
+
+ex:Elliott_Abrams_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1753.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "1753.0"^^<int> ;
+    sem:hasActor "Elliott_Abrams"^^<str> ;
+    sem:hasTime "1991-10-07"^^xsd:date .
+
+ex:Eugene_Fitzhugh_guilty-plea a sem:Event ;
+    ex:IndictmenDays "-316.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-43.0"^^<int> ;
+    sem:hasActor "Eugene_Fitzhugh"^^<str> ;
+    sem:hasTime "1994-06-23"^^xsd:date .
+
+ex:Eugenio_R_Martinez_conviction a sem:Event ;
+    ex:IndictmenDays "292.0"^^<float> ;
+    ex:Overturned "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "419.0"^^<int> ;
+    sem:hasActor "Eugenio_R_Martinez"^^<str> ;
+    sem:hasTime "1974-07-12"^^xsd:date .
+
+ex:Eugenio_R_Martinez_guilty-plea a sem:Event ;
+    ex:IndictmenDays "-246.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "-124.0"^^<int> ;
+    sem:hasActor "Eugenio_R_Martinez"^^<str> ;
+    sem:hasTime "1973-01-15"^^xsd:date .
+
+ex:Felipe_De_Diego_indictment a sem:Event ;
+    ex:IndictmenDays "292.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Felipe_De_Diego"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Francis_X_Carroll_guilty-plea a sem:Event ;
+    ex:IndictmenDays "374.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "374.0"^^<int> ;
+    sem:hasActor "Francis_X_Carroll"^^<str> ;
+    sem:hasTime "1974-05-28"^^xsd:date .
+
+ex:Frank_A_Sturgis_guilty-plea a sem:Event ;
+    ex:IndictmenDays "-246.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-124.0"^^<int> ;
+    sem:hasActor "Frank_A_Sturgis"^^<str> ;
+    sem:hasTime "1973-01-15"^^xsd:date .
+
+ex:Frank_DeMarco_indictment a sem:Event ;
+    ex:IndictmenDays "641.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Frank_DeMarco"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Frederick_LaRue_guilty-plea a sem:Event ;
+    ex:IndictmenDays "39.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "40.0"^^<int> ;
+    sem:hasActor "Frederick_LaRue"^^<str> ;
+    sem:hasTime "1973-06-28"^^xsd:date .
+
+ex:G_Gordon_Liddy_conviction a sem:Event ;
+    ex:IndictmenDays "-246.0"^^<float>,
+        "292.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-109.0"^^<int>,
+        "419.0"^^<int> ;
+    sem:hasActor "G_Gordon_Liddy"^^<str> ;
+    sem:hasTime "1973-01-30"^^xsd:date,
+        "1974-07-12"^^xsd:date .
+
+ex:Gary_Black_indictment a sem:Event ;
+    ex:IndictmenDays "630.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Gary_Black"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:George_Hearing_guilty-plea a sem:Event ;
+    ex:IndictmenDays "-15.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-8.0"^^<int> ;
+    sem:hasActor "George_Hearing"^^<str> ;
+    sem:hasTime "1973-05-11"^^xsd:date .
+
+ex:George_M_Steinbrenner_guilty-plea a sem:Event ;
+    ex:IndictmenDays "321.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "461.0"^^<int> ;
+    sem:hasActor "George_M_Steinbrenner"^^<str> ;
+    sem:hasTime "1974-08-23"^^xsd:date .
+
+ex:George_Papadopolous_guilty-plea a sem:Event ;
+    ex:IndictmenDays "141.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "141.0"^^<int> ;
+    sem:hasActor "George_Papadopolous"^^<str> ;
+    sem:hasTime "2017-10-05"^^xsd:date .
+
+ex:Gordon_C_Strachan_indictment a sem:Event ;
+    ex:IndictmenDays "286.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Gordon_C_Strachan"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:HR_Haldeman_conviction a sem:Event ;
+    ex:IndictmenDays "286.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "592.0"^^<int> ;
+    sem:hasActor "HR_Haldeman"^^<str> ;
+    sem:hasTime "1975-01-01"^^xsd:date .
+
+ex:H_Everett_Olson_guilty-plea a sem:Event ;
+    ex:IndictmenDays "214.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "214.0"^^<int> ;
+    sem:hasActor "H_Everett_Olson"^^<str> ;
+    sem:hasTime "1973-12-19"^^xsd:date .
+
+ex:Harding_L_Lawrence_guilty-plea a sem:Event ;
+    ex:IndictmenDays "178.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "178.0"^^<int> ;
+    sem:hasActor "Harding_L_Lawrence"^^<str> ;
+    sem:hasTime "1973-11-13"^^xsd:date .
+
+ex:Harold_Nelson_guilty-plea a sem:Event ;
+    ex:IndictmenDays "438.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "438.0"^^<int> ;
+    sem:hasActor "Harold_Nelson"^^<str> ;
+    sem:hasTime "1974-07-31"^^xsd:date .
+
+ex:Harry_Dent_guilty-plea a sem:Event ;
+    ex:IndictmenDays "571.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "571.0"^^<int> ;
+    sem:hasActor "Harry_Dent"^^<str> ;
+    sem:hasTime "1974-12-11"^^xsd:date .
+
+ex:Harry_Heltzer_guilty-plea a sem:Event ;
+    ex:IndictmenDays "151.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "151.0"^^<int> ;
+    sem:hasActor "Harry_Heltzer"^^<str> ;
+    sem:hasTime "1973-10-17"^^xsd:date .
+
+ex:Harry_L_Sears_indictment a sem:Event ;
+    ex:IndictmenDays "-9.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Harry_L_Sears"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Harry_Ratrie_conviction a sem:Event ;
+    ex:IndictmenDays "619.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "619.0"^^<int> ;
+    sem:hasActor "Harry_Ratrie"^^<str> ;
+    sem:hasTime "1975-01-28"^^xsd:date .
+
+ex:Henry_Cisneros_guilty-plea a sem:Event ;
+    ex:IndictmenDays "932.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "1567.0"^^<int> ;
+    sem:hasActor "Henry_Cisneros"^^<str> ;
+    sem:hasTime "1999-09-07"^^xsd:date .
+
+<http://example.org/Henry_Espy,_Jr_indictment> a sem:Event ;
+    ex:IndictmenDays "670.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Henry_Espy,_Jr"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Herbert_Branscum_indictment a sem:Event ;
+    ex:IndictmenDays "565.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Herbert_Branscum"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Herbert_Kalmbach_guilty-plea a sem:Event ;
+    ex:IndictmenDays "282.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "282.0"^^<int> ;
+    sem:hasActor "Herbert_Kalmbach"^^<str> ;
+    sem:hasTime "1974-02-25"^^xsd:date .
+
+ex:Herbert_Porter_guilty-plea a sem:Event ;
+    ex:IndictmenDays "247.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "254.0"^^<int> ;
+    sem:hasActor "Herbert_Porter"^^<str> ;
+    sem:hasTime "1974-01-28"^^xsd:date .
+
+<http://example.org/I_Lewis_'Scooter'_Libby_conviction> a sem:Event ;
+    ex:IndictmenDays "1161.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "1161.0"^^<int> ;
+    sem:hasActor "I_Lewis_'Scooter'_Libby"^^<str> ;
+    sem:hasTime "2007-03-06"^^xsd:date .
+
+ex:J_Michael_Queenan_conviction a sem:Event ;
+    ex:IndictmenDays "1336.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1575.0"^^<int> ;
+    sem:hasActor "J_Michael_Queenan"^^<str> ;
+    sem:hasTime "1994-06-23"^^xsd:date .
+
+ex:Jack_A_Gleason_guilty-plea a sem:Event ;
+    ex:IndictmenDays "545.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "545.0"^^<int> ;
+    sem:hasActor "Jack_A_Gleason"^^<str> ;
+    sem:hasTime "1974-11-15"^^xsd:date .
+
+ex:Jack_Chestnut_conviction a sem:Event ;
+    ex:IndictmenDays "583.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "719.0"^^<int> ;
+    sem:hasActor "Jack_Chestnut"^^<str> ;
+    sem:hasTime "1975-05-08"^^xsd:date .
+
+ex:Jack_L_Williams_conviction a sem:Event ;
+    ex:IndictmenDays "740.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "1386.0"^^<int> ;
+    sem:hasActor "Jack_L_Williams"^^<str> ;
+    sem:hasTime "1998-06-26"^^xsd:date .
+
+ex:Jake_Jacobsen_guilty-plea a sem:Event ;
+    ex:IndictmenDays "278.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Jake_Jacobsen"^^<str> ;
+    sem:hasTime "1974-08-07"^^xsd:date .
+
+ex:James_Allen_guilty-plea a sem:Event ;
+    ex:IndictmenDays "347.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "347.0"^^<int> ;
+    sem:hasActor "James_Allen"^^<str> ;
+    sem:hasTime "1974-05-01"^^xsd:date .
+
+ex:James_G_Watt_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1819.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "2133.0"^^<int> ;
+    sem:hasActor "James_G_Watt"^^<str> ;
+    sem:hasTime "1996-01-02"^^xsd:date .
+
+ex:James_Lake_guilty-plea a sem:Event ;
+    ex:IndictmenDays "409.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "409.0"^^<int> ;
+    sem:hasActor "James_Lake"^^<str> ;
+    sem:hasTime "1995-10-23"^^xsd:date .
+
+ex:James_McDougal_conviction a sem:Event ;
+    ex:IndictmenDays "377.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "660.0"^^<int> ;
+    sem:hasActor "James_McDougal"^^<str> ;
+    sem:hasTime "1996-05-26"^^xsd:date .
+
+ex:James_R_Jones_guilty-plea a sem:Event ;
+    ex:IndictmenDays "985.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "985.0"^^<int> ;
+    sem:hasActor "James_R_Jones"^^<str> ;
+    sem:hasTime "1976-01-29"^^xsd:date .
+
+ex:James_W_McCord_conviction a sem:Event ;
+    ex:IndictmenDays "-246.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-109.0"^^<int> ;
+    sem:hasActor "James_W_McCord"^^<str> ;
+    sem:hasTime "1973-01-30"^^xsd:date .
+
+ex:Jeb_Magruder_guilty-plea a sem:Event ;
+    ex:IndictmenDays "89.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "89.0"^^<int> ;
+    sem:hasActor "Jeb_Magruder"^^<str> ;
+    sem:hasTime "1973-08-16"^^xsd:date .
+
+ex:Jim_Guy_Tucker_conviction a sem:Event ;
+    ex:IndictmenDays "307.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "660.0"^^<int> ;
+    sem:hasActor "Jim_Guy_Tucker"^^<str> ;
+    sem:hasTime "1996-05-26"^^xsd:date .
+
+ex:John_B_Connally_indictment a sem:Event ;
+    ex:IndictmenDays "436.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "John_B_Connally"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:John_D_Ehrlichman_conviction a sem:Event ;
+    ex:IndictmenDays "286.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "592.0"^^<int> ;
+    sem:hasActor "John_D_Ehrlichman"^^<str> ;
+    sem:hasTime "1975-01-01"^^xsd:date .
+
+ex:John_D_Rosales_indictment a sem:Event ;
+    ex:IndictmenDays "932.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "John_D_Rosales"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:John_H_Melcher_guilty-plea a sem:Event ;
+    ex:IndictmenDays "327.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "327.0"^^<int> ;
+    sem:hasActor "John_H_Melcher"^^<str> ;
+    sem:hasTime "1974-04-11"^^xsd:date .
+
+ex:John_Haley_guilty-plea a sem:Event ;
+    ex:IndictmenDays "307.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1295.0"^^<int> ;
+    sem:hasActor "John_Haley"^^<str> ;
+    sem:hasTime "1998-02-20"^^xsd:date .
+
+ex:John_Hemmingson_conviction a sem:Event ;
+    ex:IndictmenDays "698.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "832.0"^^<int> ;
+    sem:hasActor "John_Hemmingson"^^<str> ;
+    sem:hasTime "1996-12-19"^^xsd:date .
+
+ex:John_N_Mitchell_conviction a sem:Event ;
+    ex:IndictmenDays "286.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "592.0"^^<int> ;
+    sem:hasActor "John_N_Mitchell"^^<str> ;
+    sem:hasTime "1975-01-01"^^xsd:date .
+
+ex:John_Poindexter_conviction a sem:Event ;
+    ex:IndictmenDays "453.0"^^<float> ;
+    ex:Overturned "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1205.0"^^<int> ;
+    sem:hasActor "John_Poindexter"^^<str> ;
+    sem:hasTime "1990-04-07"^^xsd:date .
+
+ex:John_Valentine_guilty-plea a sem:Event ;
+    ex:IndictmenDays "450.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "450.0"^^<int> ;
+    sem:hasActor "John_Valentine"^^<str> ;
+    sem:hasTime "1974-08-12"^^xsd:date .
+
+ex:John_W_Dean_III_guilty-plea a sem:Event ;
+    ex:IndictmenDays "153.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "153.0"^^<int> ;
+    sem:hasActor "John_W_Dean_III"^^<str> ;
+    sem:hasTime "1973-10-19"^^xsd:date .
+
+ex:Joseph_A_Straus_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1245.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1506.0"^^<int> ;
+    sem:hasActor "Joseph_A_Straus"^^<str> ;
+    sem:hasTime "1994-04-15"^^xsd:date .
+
+ex:Joseph_Fernandez_indictment a sem:Event ;
+    ex:IndictmenDays "549.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Joseph_Fernandez"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Julie_Hiatt_Steele_indictment a sem:Event ;
+    ex:IndictmenDays "1616.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Julie_Hiatt_Steele"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Kenneth_W_Parkinson_indictment a sem:Event ;
+    ex:IndictmenDays "286.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Kenneth_W_Parkinson"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Konstantin_Kilimnik_indictment a sem:Event ;
+    ex:IndictmenDays "387.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Konstantin_Kilimnik"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Lance_H_Wilson_conviction a sem:Event ;
+    ex:IndictmenDays "684.0"^^<float> ;
+    ex:Overturned "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1041.0"^^<int> ;
+    sem:hasActor "Lance_H_Wilson"^^<str> ;
+    sem:hasTime "1993-01-05"^^xsd:date .
+
+ex:Larry_Kuca_guilty-plea a sem:Event ;
+    ex:IndictmenDays "342.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "342.0"^^<int> ;
+    sem:hasActor "Larry_Kuca"^^<str> ;
+    sem:hasTime "1995-07-13"^^xsd:date .
+
+ex:Leonard_Briscoe_conviction a sem:Event ;
+    ex:IndictmenDays "468.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1041.0"^^<int> ;
+    sem:hasActor "Leonard_Briscoe"^^<str> ;
+    sem:hasTime "1993-01-05"^^xsd:date .
+
+ex:Linda_(Medlar)_Jones_guilty-plea a sem:Event ;
+    ex:IndictmenDays "843.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "967.0"^^<int> ;
+    sem:hasActor "Linda_(Medlar)_Jones"^^<str> ;
+    sem:hasTime "1998-01-15"^^xsd:date .
+
+ex:Lyn_Nofziger_conviction a sem:Event ;
+    ex:IndictmenDays "166.0"^^<float> ;
+    ex:Overturned "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "374.0"^^<int> ;
+    sem:hasActor "Lyn_Nofziger"^^<str> ;
+    sem:hasTime "1988-02-11"^^xsd:date .
+
+ex:Maurice_H_Stans_guilty-plea a sem:Event ;
+    ex:IndictmenDays "662.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "662.0"^^<int> ;
+    sem:hasActor "Maurice_H_Stans"^^<str> ;
+    sem:hasTime "1975-03-12"^^xsd:date .
+
+ex:Maurice_H_Stans_indictment a sem:Event ;
+    ex:IndictmenDays "-9.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Maurice_H_Stans"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Maurice_Steier_conviction a sem:Event ;
+    ex:IndictmenDays "468.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1041.0"^^<int> ;
+    sem:hasActor "Maurice_Steier"^^<str> ;
+    sem:hasTime "1993-01-05"^^xsd:date .
+
+ex:Michael_C_Schaufele_indictment a sem:Event ;
+    ex:IndictmenDays "1364.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Michael_C_Schaufele"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Michael_Cohen_guilty-plea a sem:Event ;
+    ex:IndictmenDays "561.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "561.0"^^<int> ;
+    sem:hasActor "Michael_Cohen"^^<str> ;
+    sem:hasTime "2018-11-29"^^xsd:date .
+
+ex:Michael_Deaver_conviction a sem:Event ;
+    ex:IndictmenDays "293.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "566.0"^^<int> ;
+    sem:hasActor "Michael_Deaver"^^<str> ;
+    sem:hasTime "1987-12-16"^^xsd:date .
+
+ex:Michael_Flynn_guilty-plea a sem:Event ;
+    ex:IndictmenDays "198.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "198.0"^^<int> ;
+    sem:hasActor "Michael_Flynn"^^<str> ;
+    sem:hasTime "2017-12-01"^^xsd:date .
+
+ex:Mike_Espy_indictment a sem:Event ;
+    ex:IndictmenDays "1083.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Mike_Espy"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Neal_T_Ainley_guilty-plea a sem:Event ;
+    ex:IndictmenDays "208.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "270.0"^^<int> ;
+    sem:hasActor "Neal_T_Ainley"^^<str> ;
+    sem:hasTime "1995-05-02"^^xsd:date .
+
+ex:Norman_Sherman_guilty-plea a sem:Event ;
+    ex:IndictmenDays "450.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "450.0"^^<int> ;
+    sem:hasActor "Norman_Sherman"^^<str> ;
+    sem:hasTime "1974-08-12"^^xsd:date .
+
+<http://example.org/Norris_Faust,_Jr_indictment> a sem:Event ;
+    ex:IndictmenDays "803.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Norris_Faust,_Jr"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Oliver_North_conviction a sem:Event ;
+    ex:IndictmenDays "453.0"^^<float> ;
+    ex:Overturned "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "867.0"^^<int> ;
+    sem:hasActor "Oliver_North"^^<str> ;
+    sem:hasTime "1989-05-04"^^xsd:date .
+
+ex:Orin_E_Atkins_guilty-plea a sem:Event ;
+    ex:IndictmenDays "178.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Orin_E_Atkins"^^<str> ;
+    sem:hasTime "1973-11-13"^^xsd:date .
+
+ex:Patsy_Wooten_guilty-plea a sem:Event ;
+    ex:IndictmenDays "843.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "967.0"^^<int> ;
+    sem:hasActor "Patsy_Wooten"^^<str> ;
+    sem:hasTime "1998-01-15"^^xsd:date .
+
+ex:Paul_Manafort_conviction a sem:Event ;
+    ex:IndictmenDays "166.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "461.0"^^<int> ;
+    sem:hasActor "Paul_Manafort"^^<str> ;
+    sem:hasTime "2018-08-21"^^xsd:date .
+
+ex:Philip_D_Winn_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1076.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "1076.0"^^<int> ;
+    sem:hasActor "Philip_D_Winn"^^<str> ;
+    sem:hasTime "1993-02-09"^^xsd:date .
+
+ex:Phillip_McCafferty_indictment a sem:Event ;
+    ex:IndictmenDays "831.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Phillip_McCafferty"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Ralph_Newman_conviction a sem:Event ;
+    ex:IndictmenDays "641.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "892.0"^^<int> ;
+    sem:hasActor "Ralph_Newman"^^<str> ;
+    sem:hasTime "1975-11-12"^^xsd:date .
+
+ex:Ray_Dubrowin_guilty-plea a sem:Event ;
+    ex:IndictmenDays "292.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "292.0"^^<int> ;
+    sem:hasActor "Ray_Dubrowin"^^<str> ;
+    sem:hasTime "1974-03-07"^^xsd:date .
+
+ex:Raymond_Abendroth_guilty-plea a sem:Event ;
+    ex:IndictmenDays "522.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "522.0"^^<int> ;
+    sem:hasActor "Raymond_Abendroth"^^<str> ;
+    sem:hasTime "1974-10-23"^^xsd:date .
+
+ex:Richard_Douglas_guilty-plea a sem:Event ;
+    ex:IndictmenDays "769.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "1284.0"^^<int> ;
+    sem:hasActor "Richard_Douglas"^^<str> ;
+    sem:hasTime "1998-03-16"^^xsd:date .
+
+ex:Richard_Kleindienst_guilty-plea a sem:Event ;
+    ex:IndictmenDays "362.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "362.0"^^<int> ;
+    sem:hasActor "Richard_Kleindienst"^^<str> ;
+    sem:hasTime "1974-05-16"^^xsd:date .
+
+ex:Richard_L_Allison_guilty-plea a sem:Event ;
+    ex:IndictmenDays "363.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "363.0"^^<int> ;
+    sem:hasActor "Richard_L_Allison"^^<str> ;
+    sem:hasTime "1974-05-17"^^xsd:date .
+
+ex:Richard_Miller_guilty-plea a sem:Event ;
+    ex:IndictmenDays "138.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "138.0"^^<int> ;
+    sem:hasActor "Richard_Miller"^^<str> ;
+    sem:hasTime "1987-05-06"^^xsd:date .
+
+ex:Richard_Pinedo_guilty-plea a sem:Event ;
+    ex:IndictmenDays "266.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "271.0"^^<int> ;
+    sem:hasActor "Richard_Pinedo"^^<str> ;
+    sem:hasTime "2018-02-12"^^xsd:date .
+
+ex:Richard_Secord_guilty-plea a sem:Event ;
+    ex:IndictmenDays "453.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1055.0"^^<int> ;
+    sem:hasActor "Richard_Secord"^^<str> ;
+    sem:hasTime "1989-11-08"^^xsd:date .
+
+ex:Rick_Gates_guilty-plea a sem:Event ;
+    ex:IndictmenDays "166.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "282.0"^^<int> ;
+    sem:hasActor "Rick_Gates"^^<str> ;
+    sem:hasTime "2018-02-23"^^xsd:date .
+
+ex:Robert_B_Olsen_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1167.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1168.0"^^<int> ;
+    sem:hasActor "Robert_B_Olsen"^^<str> ;
+    sem:hasTime "1993-05-12"^^xsd:date .
+
+ex:Robert_C_Mardian_conviction a sem:Event ;
+    ex:IndictmenDays "286.0"^^<float> ;
+    ex:Overturned "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "592.0"^^<int> ;
+    sem:hasActor "Robert_C_Mardian"^^<str> ;
+    sem:hasTime "1975-01-01"^^xsd:date .
+
+ex:Robert_Hill_indictment a sem:Event ;
+    ex:IndictmenDays "565.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Robert_Hill"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Robert_L_Vesco_indictment a sem:Event ;
+    ex:IndictmenDays "-9.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Robert_L_Vesco"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Robert_McFarlane_guilty-plea a sem:Event ;
+    ex:IndictmenDays "448.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "448.0"^^<int> ;
+    sem:hasActor "Robert_McFarlane"^^<str> ;
+    sem:hasTime "1988-03-11"^^xsd:date .
+
+ex:Robert_W_Palmer_guilty-plea a sem:Event ;
+    ex:IndictmenDays "123.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "122.0"^^<int> ;
+    sem:hasActor "Robert_W_Palmer"^^<str> ;
+    sem:hasTime "1994-12-05"^^xsd:date .
+
+ex:Roger_Stone_indictment a sem:Event ;
+    ex:IndictmenDays "618.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Roger_Stone"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Ronald_H_Blackley_conviction a sem:Event ;
+    ex:IndictmenDays "957.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1179.0"^^<int> ;
+    sem:hasActor "Ronald_H_Blackley"^^<str> ;
+    sem:hasTime "1997-12-01"^^xsd:date .
+
+ex:Ronald_L_Mahon_conviction a sem:Event ;
+    ex:IndictmenDays "1336.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1575.0"^^<int> ;
+    sem:hasActor "Ronald_L_Mahon"^^<str> ;
+    sem:hasTime "1994-06-23"^^xsd:date .
+
+ex:Russell_DeYoung_guilty-plea a sem:Event ;
+    ex:IndictmenDays "151.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "151.0"^^<int> ;
+    sem:hasActor "Russell_DeYoung"^^<str> ;
+    sem:hasTime "1973-10-17"^^xsd:date .
+
+ex:Russian_national_10_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_10"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_11_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_11"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_12_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_12"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_13_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_13"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_14_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_14"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_15_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_15"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_16_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_16"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_17_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_17"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_18_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_18"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_19_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_19"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_1_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_1"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_20_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_20"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_21_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_21"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_22_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_22"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_23_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_23"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_24_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_24"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_25_indictment a sem:Event ;
+    ex:IndictmenDays "422.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_25"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_2_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_2"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_3_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_3"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_4_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_4"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_5_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_5"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_6_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_6"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_7_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_7"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_8_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_8"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Russian_national_9_indictment a sem:Event ;
+    ex:IndictmenDays "275.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Russian_national_9"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Samuel_P_Singletary_guilty-plea a sem:Event ;
+    ex:IndictmenDays "651.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "721.0"^^<int> ;
+    sem:hasActor "Samuel_P_Singletary"^^<str> ;
+    sem:hasTime "1992-02-20"^^xsd:date .
+
+ex:Silvio_J_DeBartolomeis_guilty-plea a sem:Event ;
+    ex:IndictmenDays "959.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "959.0"^^<int> ;
+    sem:hasActor "Silvio_J_DeBartolomeis"^^<str> ;
+    sem:hasTime "1992-10-15"^^xsd:date .
+
+ex:Stephen_A_Smith_guilty-plea a sem:Event ;
+    ex:IndictmenDays "307.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "307.0"^^<int> ;
+    sem:hasActor "Stephen_A_Smith"^^<str> ;
+    sem:hasTime "1995-06-08"^^xsd:date .
+
+ex:Stuart_Russell_indictment a sem:Event ;
+    ex:IndictmenDays "579.0"^^<float> ;
+    ex:Overturned "true"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "783.0"^^<int> ;
+    sem:hasActor "Stuart_Russell"^^<str> ;
+    sem:hasTime "1975-07-11"^^xsd:date .
+
+ex:Susan_McDougal_conviction a sem:Event ;
+    ex:IndictmenDays "377.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "660.0"^^<int> ;
+    sem:hasActor "Susan_McDougal"^^<str> ;
+    sem:hasTime "1996-05-26"^^xsd:date .
+
+ex:Suzanna_Hubbell_indictment a sem:Event ;
+    ex:IndictmenDays "1364.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Suzanna_Hubbell"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Sylvia_Arce-Garcia_indictment a sem:Event ;
+    ex:IndictmenDays "932.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Sylvia_Arce-Garcia"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Thomas_Demery_guilty-plea a sem:Event ;
+    ex:IndictmenDays "831.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1204.0"^^<int> ;
+    sem:hasActor "Thomas_Demery"^^<str> ;
+    sem:hasTime "1993-06-17"^^xsd:date .
+
+ex:Thomas_G_Clines_conviction a sem:Event ;
+    ex:IndictmenDays "1161.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1369.0"^^<int> ;
+    sem:hasActor "Thomas_G_Clines"^^<str> ;
+    sem:hasTime "1990-09-18"^^xsd:date .
+
+ex:Thomas_V_Jones_guilty-plea a sem:Event ;
+    ex:IndictmenDays "347.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "347.0"^^<int> ;
+    sem:hasActor "Thomas_V_Jones"^^<str> ;
+    sem:hasTime "1974-05-01"^^xsd:date .
+
+ex:Tim_M_Babcock_guilty-plea a sem:Event ;
+    ex:IndictmenDays "570.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "570.0"^^<int> ;
+    sem:hasActor "Tim_M_Babcock"^^<str> ;
+    sem:hasTime "1974-12-10"^^xsd:date .
+
+ex:Victor_R_Cruse_indictment a sem:Event ;
+    ex:IndictmenDays "754.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "Victor_R_Cruse"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+
+ex:Virgilio_R_Gonzalez_guilty-plea a sem:Event ;
+    ex:IndictmenDays "-246.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "-124.0"^^<int> ;
+    sem:hasActor "Virgilio_R_Gonzalez"^^<str> ;
+    sem:hasTime "1973-01-15"^^xsd:date .
+
+ex:W_Marvin_Watson_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1223.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1223.0"^^<int> ;
+    sem:hasActor "W_Marvin_Watson"^^<str> ;
+    sem:hasTime "1976-09-23"^^xsd:date .
+
+ex:Webster_L_Hubbell_guilty-plea a sem:Event ;
+    ex:IndictmenDays "123.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "true"^^<bool> ;
+    tl:durationInt "123.0"^^<int> ;
+    sem:hasActor "Webster_L_Hubbell"^^<str> ;
+    sem:hasTime "1994-12-06"^^xsd:date .
+
+ex:Wendell_Wyatt_conviction a sem:Event ;
+    ex:IndictmenDays "753.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "753.0"^^<int> ;
+    sem:hasActor "Wendell_Wyatt"^^<str> ;
+    sem:hasTime "1975-06-11"^^xsd:date .
+
+ex:William_C_Viglia_guilty-plea a sem:Event ;
+    ex:IndictmenDays "1112.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1140.0"^^<int> ;
+    sem:hasActor "William_C_Viglia"^^<str> ;
+    sem:hasTime "1976-07-02"^^xsd:date .
+
+ex:William_J_Marks_Sr_guilty-plea a sem:Event ;
+    ex:IndictmenDays "307.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "1119.0"^^<int> ;
+    sem:hasActor "William_J_Marks_Sr"^^<str> ;
+    sem:hasTime "1997-08-28"^^xsd:date .
+
+<http://example.org/William_Lyles,_Sr_guilty-plea> a sem:Event ;
+    ex:IndictmenDays "486.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "486.0"^^<int> ;
+    sem:hasActor "William_Lyles,_Sr"^^<str> ;
+    sem:hasTime "1974-09-17"^^xsd:date .
+
+ex:William_W_Keeler_guilty-plea a sem:Event ;
+    ex:IndictmenDays "199.0"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "199.0"^^<int> ;
+    sem:hasActor "William_W_Keeler"^^<str> ;
+    sem:hasTime "1973-12-04"^^xsd:date .
+
+ex:nan_nan a sem:Event ;
+    ex:IndictmenDays "nan"^^<float> ;
+    ex:Overturned "false"^^<bool> ;
+    ex:Pardon "false"^^<bool> ;
+    tl:durationInt "nan"^^<int> ;
+    sem:hasActor "nan"^^<str> ;
+    sem:hasTime "nan"^^xsd:date .
+

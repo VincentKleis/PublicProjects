@@ -1,0 +1,516 @@
+@prefix ex: <http://example.org/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://www.bbc.co.uk/news/60866062> a prov:entity ;
+    ex:hasDescription "The Spring Statement cut some taxes but, overall, the government has raised taxes in the past year."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/60866062?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 02:42:33 GMT"^^xsd:date ;
+    ex:hasTitle "Spring Statement: Is this really the biggest personal tax cut for 25 years?"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/blogs-the-papers-60869621> a prov:entity ;
+    ex:hasDescription "Rising tensions with Russia and criticism of a ferry firm boss are among a mix of stories in the papers."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/blogs-the-papers-60869621?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 04:38:24 GMT"^^xsd:date ;
+    ex:hasTitle "The Papers: Biden's chemical weapon warning and 'Shame on' P&O"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/business-60213795> a prov:entity ;
+    ex:hasDescription "How tech is helping young families and couples regain their busy social lives after Covid."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/business-60213795?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Tue, 15 Mar 2022 00:22:57 GMT"^^xsd:date ;
+    ex:hasTitle "The popular apps aiming to tame the chaos of family life"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/business-60654969> a prov:entity ;
+    ex:hasDescription "Ed Kendall qualified as a social worker in 2019 and has started a role focusing on safeguarding."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/business-60654969?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 00:14:47 GMT"^^xsd:date ;
+    ex:hasTitle "My Job: 'Covid has made it impossible to switch off'"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/business-60852962> a prov:entity ;
+    ex:hasDescription "Many entrepreneurs are struggling to balance soaring costs and keep their businesses profitable."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/business-60852962?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 00:18:12 GMT"^^xsd:date ;
+    ex:hasTitle "Small business owners: 'We're taking the hit'"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/business-60854153> a prov:entity ;
+    ex:hasDescription "US investment banker David Solomon will play Lollapalooza in Chicago alongside acts like Metallica."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/business-60854153?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 01:26:47 GMT"^^xsd:date ;
+    ex:hasTitle "Goldman Sachs boss David Solomon set to DJ Lollapalooza"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/business-60871601> a prov:entity ;
+    ex:hasDescription "The liquefied natural gas deal with US is part of EU attempts to reduce reliance on Russian energy."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/business-60871601?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 14:13:55 GMT"^^xsd:date ;
+    ex:hasTitle "EU signs US gas deal to curb reliance on Russia"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/business-60872294> a prov:entity ;
+    ex:hasDescription "Boris Johnson backs Grant Shapps' call for Peter Hebblethwaite to quit after not consulting on sackings."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/business-60872294?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 12:23:09 GMT"^^xsd:date ;
+    ex:hasTitle "PM backs calls for P&O Ferries boss Peter Hebblethwaite to resign"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/business-60874133> a prov:entity ;
+    ex:hasDescription "Former P&O employee John, who was made redundant suddenly, explains his anger with the operator."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/business-60874133?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 09:59:48 GMT"^^xsd:date ;
+    ex:hasTitle "‘P&O Ferries weren’t just jobs - they were our homes’"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/entertainment-arts-60764010> a prov:entity ;
+    ex:hasDescription "Cinderella, Minamata and Sing 2 might not be nominated, but they could be named \"fan favourite\"."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/entertainment-arts-60764010?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 00:04:39 GMT"^^xsd:date ;
+    ex:hasTitle "Oscars 2022: Which film might be named fan favourite?"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/entertainment-arts-60848382> a prov:entity ;
+    ex:hasDescription "Ahead of the ceremony, executive Scott Stuber says it would be \"terrible\" if Netflix killed cinema."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/entertainment-arts-60848382?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 12:51:16 GMT"^^xsd:date ;
+    ex:hasTitle "Netflix boss Scott Stuber says Oscar best picture win would be the dream"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/entertainment-arts-60860208> a prov:entity ;
+    ex:hasDescription "Tess Seddon has made a stage show out of standing for parliament for the Yorkshire Party."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/entertainment-arts-60860208?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 13:34:49 GMT"^^xsd:date ;
+    ex:hasTitle "Say Yes To Tess: Turning a doomed election campaign into a musical"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/entertainment-arts-60861539> a prov:entity ;
+    ex:hasDescription "An egg poacher, a toaster and the washing up - just some ways Michael Bublé shows his romantic side."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/entertainment-arts-60861539?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 00:45:29 GMT"^^xsd:date ;
+    ex:hasTitle "Michael Bublé: Multi-Grammy winner on Bond themes, romantic gifts and new album"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/entertainment-arts-60872722> a prov:entity ;
+    ex:hasDescription "Screenwriter and director Richard Curtis says awards voters often overlook comedy and its actors."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/entertainment-arts-60872722?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 08:52:00 GMT"^^xsd:date ;
+    ex:hasTitle "Ferrell should have had Oscar nomination for Elf, says Curtis"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/entertainment-arts-60872729> a prov:entity ;
+    ex:hasDescription "The hit Netflix series is described as \"less fun\" with fewer sex scenes, but also \"more dynamic\"."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/entertainment-arts-60872729?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 12:14:18 GMT"^^xsd:date ;
+    ex:hasTitle "Bridgerton: Mixed responses from critics to second series"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/entertainment-arts-60873393> a prov:entity ;
+    ex:hasDescription "Sir Philip Pullman says he cannot express personal opinions as president of the Society of Authors."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/entertainment-arts-60873393?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 11:10:16 GMT"^^xsd:date ;
+    ex:hasTitle "Sir Philip Pullman resigns as Society of Authors president after book row"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/health-51943612> a prov:entity ;
+    ex:hasDescription "Most free Covid tests will soon be scrapped in England, but will remain in Scotland and Wales."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/health-51943612?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Tue, 22 Mar 2022 10:47:42 GMT"^^xsd:date ;
+    ex:hasTitle "When will free Covid tests end across the UK and can I buy LFTs?"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/health-55045639> a prov:entity ;
+    ex:hasDescription "Over-75s and those with a weakened immune system will be offered an extra booster dose this spring."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/health-55045639?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 08:06:35 GMT"^^xsd:date ;
+    ex:hasTitle "Covid boosters: Who is being vaccinated?"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/health-60821689> a prov:entity ;
+    ex:hasDescription "About 200 hospitals worldwide are offering safe cancer treatment for boys like Pavlo and Kyril."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/health-60821689?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 09:10:04 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine war: The road to safety for Ukraine's cancer children"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/health-60872683> a prov:entity ;
+    ex:hasDescription "A woman had recently travelled to Central Asia where the tick bite viral disease is endemic."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/health-60872683?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 10:33:43 GMT"^^xsd:date ;
+    ex:hasTitle "Crimean-Congo haemorrhagic fever case found in UK"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/health-60872687> a prov:entity ;
+    ex:hasDescription "About 4.3 million people - or one in every 16 - are thought to have the virus, compared to 3.3 million the week before."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/health-60872687?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 12:39:21 GMT"^^xsd:date ;
+    ex:hasTitle "UK Covid infections climb by a million in a week"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/science-environment-60834796> a prov:entity ;
+    ex:hasDescription "Orchards are in big decline, with an area the size of the Isle of Wight lost since 1900, research finds."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/science-environment-60834796?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 00:50:24 GMT"^^xsd:date ;
+    ex:hasTitle "Orchards vanishing from the landscape, says National Trust"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-51768274> a prov:entity ;
+    ex:hasDescription "Explore the data on coronavirus in the UK and find out how many cases there are in your area."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-51768274?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Wed, 23 Mar 2022 17:54:44 GMT"^^xsd:date ;
+    ex:hasTitle "Covid-19 in the UK: How many coronavirus cases are there in my area?"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/uk-60867202> a prov:entity ;
+    ex:hasDescription "The BBC's Frank Gardner looks at four themes that have defined Ukraine's reaction to Russia's invasion."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-60867202?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 18:11:02 GMT"^^xsd:date ;
+    ex:hasTitle "War in Ukraine: What Ukraine is getting right"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-60869176> a prov:entity ;
+    ex:hasDescription "She was originally meant to visit the Staffordshire firm - but it arranged to bring its wares to Windsor."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-60869176?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 23:10:55 GMT"^^xsd:date ;
+    ex:hasTitle "Queen's delight as teapot factory comes to her"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-60860477> a prov:entity ;
+    ex:hasDescription "Rob Roy Cameron served up school dinners after kitchen manager Tina Clarke made a plea on BBC Radio."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-60860477?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 12:19:19 GMT"^^xsd:date ;
+    ex:hasTitle "Gordon Ramsay sends chef to help Biggleswade school canteen"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-england-essex-60873662> a prov:entity ;
+    ex:hasDescription "The Old Bailey hears the man accused of killing Sir David Amess told police it was a terrorist attack."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-england-essex-60873662?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 13:14:54 GMT"^^xsd:date ;
+    ex:hasTitle "David Amess killing: Ali Harbi Ali told police 'I done it, I killed an MP'"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-england-london-60848732> a prov:entity ;
+    ex:hasDescription "The controversial sphere will be covered in lights and become one of London's biggest music venues."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-england-london-60848732?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Wed, 23 Mar 2022 15:10:18 GMT"^^xsd:date ;
+    ex:hasTitle "Plans for giant, lit-up dome approved for Olympics site"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/uk-england-tyne-60859817> a prov:entity ;
+    ex:hasDescription "Caroline Curry called on the home secretary to \"look in her heart\" and change an \"antiquated\" law."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-england-tyne-60859817?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 06:34:41 GMT"^^xsd:date ;
+    ex:hasTitle "Manchester Arena attack: Mum wants right to register son’s death"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-england-wiltshire-60873483> a prov:entity ;
+    ex:hasDescription "Dawn Sturgess died after being exposed to the Russian nerve agent Novichok in Wiltshire in 2018."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-england-wiltshire-60873483?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 13:01:13 GMT"^^xsd:date ;
+    ex:hasTitle "Dawn Sturgess: 'Rigorous' inquiry into Novichok death"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-northern-ireland-60875251> a prov:entity ;
+    ex:hasDescription "A van was reportedly hijacked and driven to the venue, and a controlled explosion has since been carried out."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-northern-ireland-60875251?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 13:59:39 GMT"^^xsd:date ;
+    ex:hasTitle "Simon Coveney's visit to Belfast interrupted by security alert"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-scotland-60850379> a prov:entity ;
+    ex:hasDescription "The children, who were evacuated from Dnipro, can stay in Scotland until it is safe to return home."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-scotland-60850379?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 12:01:23 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine war: Dnipro orphans find sanctuary in Scotland"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-60823397> a prov:entity ;
+    ex:hasDescription "Transplant patient Stuart Middleton has both his kidneys - along with two he received from donors."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-60823397?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Wed, 23 Mar 2022 06:12:57 GMT"^^xsd:date ;
+    ex:hasTitle "'I was shocked to find out I now have four kidneys'"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/uk-wales-60820974> a prov:entity ;
+    ex:hasDescription "The family house was destroyed and they lived in a tent but now they've settled in rural Wales."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/uk-wales-60820974?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 10:10:39 GMT"^^xsd:date ;
+    ex:hasTitle "Refugees in Wales: 'Thank God I came here after our home was bombed'"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-60856173> a prov:entity ;
+    ex:hasDescription "How closely have you been paying attention to what's been going on during the past seven days?"^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-60856173?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 15:36:57 GMT"^^xsd:date ;
+    ex:hasTitle "Quiz of the week: What did gamers do for Ukraine?"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-africa-60848482> a prov:entity ;
+    ex:hasDescription "A host of by-elections present a key test for the new opposition and the country's democratic credentials."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-africa-60848482?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 00:06:24 GMT"^^xsd:date ;
+    ex:hasTitle "Zimbabwe by-elections: New party, same fears of dirty tricks"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-asia-60853162> a prov:entity ;
+    ex:hasDescription "The Taliban’s U-turn on girls' high schools is heartbreaking, the Nobel Peace Prize laureate says."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-asia-60853162?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Wed, 23 Mar 2022 17:24:33 GMT"^^xsd:date ;
+    ex:hasTitle "Taliban schools U-turn 'a devastating day' for Afghan girls - Malala Yousafzai"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/world-australia-60831476> a prov:entity ;
+    ex:hasDescription "Locals tell dramatic stories of survival and recovery, but accuse politicians of ignoring them."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-australia-60831476?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 00:47:02 GMT"^^xsd:date ;
+    ex:hasTitle "Australia floods: 'We're resilient, but how about helping us?'"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-18023383> a prov:entity ;
+    ex:hasDescription "Nato faces one of the biggest challenges in its history with Russia's invasion of Ukraine."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-18023383?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 11:26:36 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine conflict: What is Nato and how has it responded to Russia's invasion?"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60125659> a prov:entity ;
+    ex:hasDescription "Western nations have imposed severe sanctions on Russia over its invasion of Ukraine."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60125659?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 11:41:20 GMT"^^xsd:date ;
+    ex:hasTitle "What sanctions are being imposed on Russia over Ukraine invasion?"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60778909> a prov:entity ;
+    ex:hasDescription "The shooting of a Ukrainian priest by Russian soldiers is being logged as a suspected war crime."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60778909?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 00:12:45 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine war: The priest shot at a checkpoint"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60806156> a prov:entity ;
+    ex:hasDescription "The BBC's Sarah Rainsford travelled around Ukraine as the war started and lives were shattered."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60806156?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Wed, 23 Mar 2022 00:32:28 GMT"^^xsd:date ;
+    ex:hasTitle "A month in Ukraine: 'All normal life is gone'"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/world-europe-60835106> a prov:entity ;
+    ex:hasDescription "The BBC speaks to survivors of the Mariupol theatre attack, who describe for the first time what happened."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60835106?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Tue, 22 Mar 2022 20:09:20 GMT"^^xsd:date ;
+    ex:hasTitle "A bomb hit this theatre hiding hundreds - here's how one woman survived"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/world-europe-60848142> a prov:entity ;
+    ex:hasDescription "A photographer from the UK travels to western Ukraine to rescue pets displaced by war."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60848142?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Wed, 23 Mar 2022 10:27:59 GMT"^^xsd:date ;
+    ex:hasTitle "War in Ukraine: 'Pets are getting left at train stations'"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/world-europe-60853547> a prov:entity ;
+    ex:hasDescription "Ukrainian forces are pushing back Russia's advances to Kyiv's west, as a Kremlin adviser resigns."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60853547?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Wed, 23 Mar 2022 21:30:51 GMT"^^xsd:date ;
+    ex:hasTitle "A Kremlin adviser resigns and Ukrainian territory regained - Ukraine's latest war round-up"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/world-europe-60854502> a prov:entity ;
+    ex:hasDescription "Ten-year-old Yana started school in Poland three weeks ago, after fleeing the war in Ukraine."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60854502?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 00:09:35 GMT"^^xsd:date ;
+    ex:hasTitle "The Ukrainian refugee who loves to laugh at school in Poland"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60854503> a prov:entity ;
+    ex:hasDescription "In the month since Russia's military invaded, it has laid waste to cities across Ukraine."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60854503?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 00:06:23 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine war: Destruction of cities shown from above"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60855280> a prov:entity ;
+    ex:hasDescription "In 10 parliaments over two weeks Ukraine's leader has used shame and national trauma to set a global agenda."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60855280?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 00:18:27 GMT"^^xsd:date ;
+    ex:hasTitle "'Shame on you': How President Zelensky uses speeches to get what he needs"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60858363> a prov:entity ;
+    ex:hasDescription "The UN has documented almost 40 cases of politicians, journalists and activists being abducted."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60858363?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 07:29:57 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine War: Civilians abducted as Russia tries to assert control"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60860548> a prov:entity ;
+    ex:hasDescription "Quentin Sommerville and cameraman Darren Conway have spent time with two fighters since the very start."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60860548?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 13:39:59 GMT"^^xsd:date ;
+    ex:hasTitle "Defiant Ukrainian troops tell Russians: 'Go home while you're still alive'"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60865088> a prov:entity ;
+    ex:hasDescription "It was a busy day of international diplomacy on Thursday, with several emergency summits taking place."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60865088?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 22:31:14 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine daily roundup: World leaders show united front at major summits"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60866283> a prov:entity ;
+    ex:hasDescription "\"What's happening is a disgrace,\" says Elena, who was carried away by police for anti-war protests."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60866283?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 17:06:58 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine-Russia: The 76-year-old artist taking on Putin"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60866389> a prov:entity ;
+    ex:hasDescription "A risky night-time race to safety lies ahead for exhausted families fleeing Kyiv each day."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60866389?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 06:00:04 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine war: A dangerous escape on the 'Rescue Express'"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60867789> a prov:entity ;
+    ex:hasDescription "The BBC's Jeremy Bowen returns to Irpin, where Ukrainian forces say they're pushing back Russians."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60867789?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 00:53:01 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine war: Return to Irpin, the town destroyed in the battle for Kyiv"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-europe-60870771> a prov:entity ;
+    ex:hasDescription "The US president made the comments during an unprecedented day of emergency summits in Brussels."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-europe-60870771?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 05:23:43 GMT"^^xsd:date ;
+    ex:hasTitle "Ukraine: Nato will respond if Russia uses chemical weapons, warns Biden"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/news/world-us-canada-48401172> a prov:entity ;
+    ex:hasDescription "Originally born in Czechoslovakia, Albright became a trailblazer for women on the world stage."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-us-canada-48401172?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Wed, 23 Mar 2022 18:56:24 GMT"^^xsd:date ;
+    ex:hasTitle "Life of Madeleine Albright, the Czech-born US political trailblazer"^^<str> ;
+    prov:wasAttributedTo ex:ThomasSmith .
+
+<https://www.bbc.co.uk/news/world-us-canada-60837944> a prov:entity ;
+    ex:hasDescription "As tensions with Russia rise, fears mount that North America's isolated Arctic may be vulnerable"^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/news/world-us-canada-60837944?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Thu, 24 Mar 2022 23:25:55 GMT"^^xsd:date ;
+    ex:hasTitle "Is North America's Arctic vulnerable to Russia?"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/sport/av/rugby-union/60867324> a prov:entity ;
+    ex:hasDescription "From mazy runs to outstanding offloads relive the best tries from the 2021 Women's Six Nations."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/sport/av/rugby-union/60867324?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 12:38:05 GMT"^^xsd:date ;
+    ex:hasTitle "Women's Six Nations: Watch the best tries from the 2021 tournament"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/sport/football/60794963> a prov:entity ;
+    ex:hasDescription "In the summer of 2009 mysterious new owners promised to propel fourth-tier side Notts County to grand success. It was all a big lie."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/sport/football/60794963?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 00:01:03 GMT"^^xsd:date ;
+    ex:hasTitle "Notts County and the conman: Following your team through a football scam"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/sport/football/60869213> a prov:entity ;
+    ex:hasDescription "For the first time in their history, Italy will miss a second successive World Cup - now they need to avoid scapegoats and learn from a sporting disaster, says Daniele Verri."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/sport/football/60869213?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 12:57:06 GMT"^^xsd:date ;
+    ex:hasTitle "Italy out of World Cup: Can Azzurri turn 'disaster' against North Macedonia into better future?"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/sport/football/60871968> a prov:entity ;
+    ex:hasDescription "The consortiums involving ex-Liverpool chairman Sir Martin Broughton and Los Angeles Dodgers co-owner Todd Boehly make the shortlist of bidders to buy Chelsea."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/sport/football/60871968?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 13:27:37 GMT"^^xsd:date ;
+    ex:hasTitle "Broughton and Boehly consortiums make Chelsea shortlist"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/sport/football/60873713> a prov:entity ;
+    ex:hasDescription "The FA is to provide 100 free buses for fans attending the FA Cup semi-final between Liverpool and Manchester City at Wembley."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/sport/football/60873713?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 11:40:25 GMT"^^xsd:date ;
+    ex:hasTitle "FA Cup: Liverpool and Manchester City fans to be given 100 free buses for Wembley semi-final"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+<https://www.bbc.co.uk/sport/formula1/60875788> a prov:entity ;
+    ex:hasDescription "Seven-time Formula 1 world champion Lewis Hamilton says it should be \"easy\" for Saudi Arabia to make changes to improve human rights."^^<str> ;
+    ex:hasLink "https://www.bbc.co.uk/sport/formula1/60875788?at_medium=RSS&at_campaign=KARANGA"^^<link> ;
+    ex:hasPubDate "Fri, 25 Mar 2022 14:00:26 GMT"^^xsd:date ;
+    ex:hasTitle "Hamilton calls on Saudi Arabia to do more on human rights"^^<str> ;
+    prov:wasAttributedTo ex:JosephOlson .
+
+ex:BBC a prov:Entity ;
+    ex:hasEntry <https://www.bbc.co.uk/news/60866062>,
+        <https://www.bbc.co.uk/news/blogs-the-papers-60869621>,
+        <https://www.bbc.co.uk/news/business-60213795>,
+        <https://www.bbc.co.uk/news/business-60654969>,
+        <https://www.bbc.co.uk/news/business-60852962>,
+        <https://www.bbc.co.uk/news/business-60854153>,
+        <https://www.bbc.co.uk/news/business-60871601>,
+        <https://www.bbc.co.uk/news/business-60872294>,
+        <https://www.bbc.co.uk/news/business-60874133>,
+        <https://www.bbc.co.uk/news/entertainment-arts-60764010>,
+        <https://www.bbc.co.uk/news/entertainment-arts-60848382>,
+        <https://www.bbc.co.uk/news/entertainment-arts-60860208>,
+        <https://www.bbc.co.uk/news/entertainment-arts-60861539>,
+        <https://www.bbc.co.uk/news/entertainment-arts-60872722>,
+        <https://www.bbc.co.uk/news/entertainment-arts-60872729>,
+        <https://www.bbc.co.uk/news/entertainment-arts-60873393>,
+        <https://www.bbc.co.uk/news/health-51943612>,
+        <https://www.bbc.co.uk/news/health-55045639>,
+        <https://www.bbc.co.uk/news/health-60821689>,
+        <https://www.bbc.co.uk/news/health-60872683>,
+        <https://www.bbc.co.uk/news/health-60872687>,
+        <https://www.bbc.co.uk/news/science-environment-60834796>,
+        <https://www.bbc.co.uk/news/uk-51768274>,
+        <https://www.bbc.co.uk/news/uk-60867202>,
+        <https://www.bbc.co.uk/news/uk-60869176>,
+        <https://www.bbc.co.uk/news/uk-england-beds-bucks-herts-60860477>,
+        <https://www.bbc.co.uk/news/uk-england-essex-60873662>,
+        <https://www.bbc.co.uk/news/uk-england-london-60848732>,
+        <https://www.bbc.co.uk/news/uk-england-tyne-60859817>,
+        <https://www.bbc.co.uk/news/uk-england-wiltshire-60873483>,
+        <https://www.bbc.co.uk/news/uk-northern-ireland-60875251>,
+        <https://www.bbc.co.uk/news/uk-scotland-60850379>,
+        <https://www.bbc.co.uk/news/uk-scotland-edinburgh-east-fife-60823397>,
+        <https://www.bbc.co.uk/news/uk-wales-60820974>,
+        <https://www.bbc.co.uk/news/world-60856173>,
+        <https://www.bbc.co.uk/news/world-africa-60848482>,
+        <https://www.bbc.co.uk/news/world-asia-60853162>,
+        <https://www.bbc.co.uk/news/world-australia-60831476>,
+        <https://www.bbc.co.uk/news/world-europe-18023383>,
+        <https://www.bbc.co.uk/news/world-europe-60125659>,
+        <https://www.bbc.co.uk/news/world-europe-60778909>,
+        <https://www.bbc.co.uk/news/world-europe-60806156>,
+        <https://www.bbc.co.uk/news/world-europe-60835106>,
+        <https://www.bbc.co.uk/news/world-europe-60848142>,
+        <https://www.bbc.co.uk/news/world-europe-60853547>,
+        <https://www.bbc.co.uk/news/world-europe-60854502>,
+        <https://www.bbc.co.uk/news/world-europe-60854503>,
+        <https://www.bbc.co.uk/news/world-europe-60855280>,
+        <https://www.bbc.co.uk/news/world-europe-60858363>,
+        <https://www.bbc.co.uk/news/world-europe-60860548>,
+        <https://www.bbc.co.uk/news/world-europe-60865088>,
+        <https://www.bbc.co.uk/news/world-europe-60866283>,
+        <https://www.bbc.co.uk/news/world-europe-60866389>,
+        <https://www.bbc.co.uk/news/world-europe-60867789>,
+        <https://www.bbc.co.uk/news/world-europe-60870771>,
+        <https://www.bbc.co.uk/news/world-us-canada-48401172>,
+        <https://www.bbc.co.uk/news/world-us-canada-60837944>,
+        <https://www.bbc.co.uk/sport/av/rugby-union/60867324>,
+        <https://www.bbc.co.uk/sport/football/60794963>,
+        <https://www.bbc.co.uk/sport/football/60869213>,
+        <https://www.bbc.co.uk/sport/football/60871968>,
+        <https://www.bbc.co.uk/sport/football/60873713>,
+        <https://www.bbc.co.uk/sport/formula1/60875788> .
+
+ex:ThomasSmith a prov:agent ;
+    prov:actedOnBehalfOf ex:BBC .
+
+ex:JosephOlson a prov:agent ;
+    prov:actedOnBehalfOf ex:BBC .
+
