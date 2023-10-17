@@ -1,0 +1,3 @@
+[submodule "python_programming/hobby"]
+	path = python_programming/hobby
+	url = git@github.com:VincentKleis/hobby.git
