@@ -1,30 +1,16 @@
-import turtle
-from time import time
+# code coppied from user cdlane posted at: https://stackoverflow.com/questions/19498447/multithreading-with-python-turtle
+
 import queue
 import threading
-
-start = time()
-
-turtle.speed(0)
-for i in range(360):
-    turtle.forward(1)
-    turtle.left(1)
-
-for i in range(360):
-    turtle.forward(1)
-    turtle.right(1)
-
-result1 = time()-start
-start = time()
-
+import turtle
 
 def tes1():
-    for i in range(360):
+    while range(360):
         graphics.put(turtle1.forward)
         graphics.put(turtle1.left)
 
 def tes2():
-    for i in range(360):
+    while range(360):
         graphics.put(turtle2.forward)
         graphics.put(turtle2.right)
 
@@ -45,7 +31,4 @@ thread2.start()
 while not graphics.empty():
     (graphics.get())(1)
 
-resutl2 = time()-start
-
-print(f"time to draw without multithreading: {result1}\n\
-      time with multithreading: {resutl2}")
+turtle.exitonclick()
