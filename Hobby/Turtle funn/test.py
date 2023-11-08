@@ -1,51 +1,9 @@
 import turtle
-from time import time
-import queue
-import threading
+import tkinter
 
-start = time()
+for i in range(100):
+    turtle.forward(10)
 
-turtle.speed(0)
-for i in range(360):
-    turtle.forward(1)
-    turtle.left(1)
+canvas = turtle.getcanvas()
 
-for i in range(360):
-    turtle.forward(1)
-    turtle.right(1)
-
-result1 = time()-start
-start = time()
-
-
-def tes1():
-    for i in range(360):
-        graphics.put(turtle1.forward)
-        graphics.put(turtle1.left)
-
-def tes2():
-    for i in range(360):
-        graphics.put(turtle2.forward)
-        graphics.put(turtle2.right)
-
-graphics = queue.Queue(1)  # size = number of hardware threads you have - 1
-
-turtle1 = turtle.Turtle('turtle')
-turtle1.speed(0)
-thread1 = threading.Thread(target=tes1)
-thread1.daemon = True  # thread dies when main thread (only non-daemon thread) exits.
-thread1.start()
-
-turtle2 = turtle.Turtle('turtle')
-turtle2.speed(0)
-thread2 = threading.Thread(target=tes2)
-thread2.daemon = True  # thread dies when main thread (only non-daemon thread) exits.
-thread2.start()
-
-while not graphics.empty():
-    (graphics.get())(1)
-
-resutl2 = time()-start
-
-print(f"time to draw without multithreading: {result1}\n\
-      time with multithreading: {resutl2}")
+turtle.mainloop()

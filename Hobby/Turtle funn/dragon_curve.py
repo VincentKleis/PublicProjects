@@ -1,4 +1,42 @@
 import turtle
+from time import sleep
+import threading
+
+def draw_dragon(dragon_iters= 10):
+    """first dragon curve drawing function, takes the number of itterations you want of a 
+    dragon curve and draws untill the last itteration is compleete
+
+    Args:
+        dragon_iters (int, optional): number of dragon curve itterations. Defaults to 10.
+    """
+
+    n_lines = (dragon_iters**2)-1
+    x = 0
+    path = ["r"]
+    line_size = round(1000/n_lines)
+
+    turtle.speed(0)
+
+    while x < dragon_iters:
+        
+        turtle.forward(line_size)
+
+        coppy = path.copy()
+
+        reversed_range = reversed(list(range(len(coppy))))
+
+        turtle.right(90)
+        path.append("r")
+        for i in reversed_range:
+            turtle.forward(line_size)
+            if path[i] == "l":
+                turtle.right(90)
+                path.append("r")
+            if path[i] == "r":
+                turtle.left(90)
+                path.append("l")
+
+        x += 1
 
 def path_calc(dragon_iters)->list:
     """calculates the path that the turtle has to go to draw the dragoncurve of itteration n

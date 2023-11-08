@@ -1,1 +1,0 @@
-Jeg programerte en måte for meg og kjæresten å lese kviteringer algorytmisk for å fasilitere mikro budsjettering av mat. prosjektet ble ultimativt skrotet da vi ikke lenge ønsket å være så presise i budsjettet
