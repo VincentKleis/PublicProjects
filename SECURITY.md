@@ -8,7 +8,7 @@ I am an avid user of match case in python and thus it is safest to assume that m
 | Version | Supported          |
 | ------- | ------------------ |
 | 3.10    | :white_check_mark: |
-|< 3.10   | :?:                |
+|< 3.10   | :gey_question:     |
 
 ### rust
 
