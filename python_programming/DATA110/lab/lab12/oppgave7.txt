@@ -1,0 +1,11 @@
+1.a) list(map(str,l))
+= [str(n) for n in l]
+
+1.b) list(filter(lambda x:x>5, l))
+= [x for x in l if x>5]
+
+1.c) list(map(lambda x:x-1-len(l), l))
+= [x-1-len(l) for x in l]
+
+1.d) list(filter(lambda x: x%2==0, map(lambda x:x+3, l)))
+[x+3 for x in l if x%2==0]

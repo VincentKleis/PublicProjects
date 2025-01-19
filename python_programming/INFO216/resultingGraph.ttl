@@ -1,0 +1,81 @@
+@prefix ex: <http://example.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ex:A_Review_of_Relational_Machine_Learning_for_Knowledge_Graphs a ex:sicencPaper ;
+    ex:author ex:E_Gabrilovich,
+        ex:K_Murphy,
+        ex:Maximilian_Nickel,
+        ex:Volker_Tresp ;
+    ex:pubDate "2016" .
+
+ex:ConceptNet_5_5_An_Open_Multilingual_Graph_of_General_Knowledge a ex:sicencPaper ;
+    ex:author ex:Catherine_Havasi,
+        ex:Joshua_Chin,
+        ex:R_Speer ;
+    ex:pubDate "2017" .
+
+ex:Convolutional_2D_Knowledge_Graph_Embeddings a ex:sicencPaper ;
+    ex:author ex:Pasquale_Minervini,
+        ex:Pontus_Stenetorp,
+        ex:S_Riedel,
+        ex:Tim_Dettmers ;
+    ex:pubDate "2018" .
+
+ex:Holographic_Embeddings_of_Knowledge_Graphs a ex:sicencPaper ;
+    ex:author ex:L_Rosasco,
+        ex:Maximilian_Nickel,
+        ex:T_Poggio ;
+    ex:pubDate "2016" .
+
+ex:Knowledge_Graph a skos:prefLabel ;
+    skos:altLabel ex:Google_Knowledge_Graph,
+        ex:Knowledge_Panel,
+        ex:Knowledge_Panels ;
+    skos:relatedMatch ex:Android_Wear,
+        ex:DBpedia,
+        ex:Freebase,
+        ex:Google_Now,
+        ex:Google_Search .
+
+ex:Knowledge_Graph_Embedding_A_Survey_of_Approaches_and_Applications a ex:sicencPaper ;
+    ex:author ex:Bin_Wang,
+        ex:Li_Guo,
+        ex:Quan_Wang,
+        ex:Zhendong_Mao ;
+    ex:pubDate "2017" .
+
+ex:Knowledge_Graph_Embedding_by_Translating_on_Hyperplanes a ex:sicencPaper ;
+    ex:author ex:Jianlin_Feng,
+        ex:Jianwen_Zhang,
+        ex:Zhen_Wang,
+        ex:Zheng_Chen ;
+    ex:pubDate "2014" .
+
+ex:Knowledge_Graph_Embedding_via_Dynamic_Mapping_Matrix a ex:sicencPaper ;
+    ex:author ex:Guoliang_Ji,
+        ex:Jun_Zhao,
+        ex:Kang_Liu,
+        ex:Liheng_Xu,
+        ex:Shizhu_He ;
+    ex:pubDate "2015" .
+
+ex:Learning_Entity_and_Relation_Embeddings_for_Knowledge_Graph_Completion a ex:sicencPaper ;
+    ex:author ex:Maosong_Sun,
+        ex:Xuan_Zhu,
+        ex:Yang_Liu,
+        ex:Yankai_Lin,
+        ex:Zhiyuan_Liu ;
+    ex:pubDate "2015" .
+
+ex:RotatE_Knowledge_Graph_Embedding_by_Relational_Rotation_in_Complex_Space a ex:sicencPaper ;
+    ex:author ex:Jian-Yun_Nie,
+        ex:Jian_Tang,
+        ex:Zhihong_Deng,
+        ex:Zhiqing_Sun ;
+    ex:pubDate "2019" .
+
+ex:SemiSupervised_Classification_with_Graph_Convolutional_Networks a ex:sicencPaper ;
+    ex:author ex:M_Welling,
+        ex:Thomas_Kipf ;
+    ex:pubDate "2017" .
+

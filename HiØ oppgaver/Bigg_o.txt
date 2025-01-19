@@ -1,0 +1,23 @@
+1.
+    1: O(n)
+    2: O(n²)
+    3: O(n)
+    4: O(n³)
+    5: O(n²)
+    6: O(n⁵)
+    7: O(n⁴)
+
+2.
+    1: t=O(5) = 5ms
+    2: t(100) = c *100 * ln(100) = 1, c= 1/(100*ln(100)) = 0.00217 | 0.00217 * 500 log 500 = 6.74ms
+    3: t(100) = C * 100² = 1, c = 1/100000 | 1/10000 * 500² = 500²/100000 = 25ms
+    4: t(100) = 1/100³ | 500³/100³ = 125ms
+
+3.
+    1: t(100) = c *100 = 1, c= 1/100 | 60000 = 1/100 , 60000 * 100 = 6000000
+    2: 10000 log(10000) = 40000, så vi har mulighet til å kjøre mer en 10000 ganger, 20000 log(20000) = 86000, 15000 log(1500) = 62600, 13000 log(13000)... 14426log(14426) = 59999, 14427log(14427)= 60004 så programmet kjører 14426 ganger på 1 minut
+    3: kvadrat roten av 60000 er 244, 244 er derfor maksimale antall ganger dette programmet klarer å kjøre
+    4: cubikroten av 60000 er 39
+
+4.
+    O(log(n))

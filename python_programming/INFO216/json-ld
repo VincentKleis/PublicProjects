@@ -1,0 +1,85 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://example.org/> .
+
+ns1:Wang_Yaping a ns1:Crew ;
+    ns1:CrewIn ns1:Shenzhou_13 ;
+    foaf:knows ns1:Ye_Guangfu,
+        ns1:Zhai_Zhigang .
+
+ns1:Ye_Guangfu a ns1:Crew ;
+    ns1:CrewIn ns1:Shenzhou_13 ;
+    foaf:knows ns1:Wang_Yaping,
+        ns1:Zhai_Zhigang .
+
+ns1:Zhai_Zhigang a ns1:Crew ;
+    ns1:CrewIn ns1:Shenzhou_13 ;
+    foaf:knows ns1:Wang_Yaping,
+        ns1:Ye_Guangfu .
+
+ns1:Shenzhou_13 a ns1:Craft .
+
+ns1:Anton_Shkaplerov a ns1:Crew ;
+    ns1:CrewIn ns1:ISS ;
+    foaf:knows ns1:Kayla_Barron,
+        ns1:Mark_Vande_Hei,
+        ns1:Matthias_Maurer,
+        ns1:Pyotr_Dubrov,
+        ns1:Raja_Chari,
+        ns1:Tom_Marshburn .
+
+ns1:Kayla_Barron a ns1:Crew ;
+    ns1:CrewIn ns1:ISS ;
+    foaf:knows ns1:Anton_Shkaplerov,
+        ns1:Mark_Vande_Hei,
+        ns1:Matthias_Maurer,
+        ns1:Pyotr_Dubrov,
+        ns1:Raja_Chari,
+        ns1:Tom_Marshburn .
+
+ns1:Mark_Vande_Hei a ns1:Crew ;
+    ns1:CrewIn ns1:ISS ;
+    foaf:knows ns1:Anton_Shkaplerov,
+        ns1:Kayla_Barron,
+        ns1:Matthias_Maurer,
+        ns1:Pyotr_Dubrov,
+        ns1:Raja_Chari,
+        ns1:Tom_Marshburn .
+
+ns1:Matthias_Maurer a ns1:Crew ;
+    ns1:CrewIn ns1:ISS ;
+    foaf:knows ns1:Anton_Shkaplerov,
+        ns1:Kayla_Barron,
+        ns1:Mark_Vande_Hei,
+        ns1:Pyotr_Dubrov,
+        ns1:Raja_Chari,
+        ns1:Tom_Marshburn .
+
+ns1:Pyotr_Dubrov a ns1:Crew ;
+    ns1:CrewIn ns1:ISS ;
+    foaf:knows ns1:Anton_Shkaplerov,
+        ns1:Kayla_Barron,
+        ns1:Mark_Vande_Hei,
+        ns1:Matthias_Maurer,
+        ns1:Raja_Chari,
+        ns1:Tom_Marshburn .
+
+ns1:Raja_Chari a ns1:Crew ;
+    ns1:CrewIn ns1:ISS ;
+    foaf:knows ns1:Anton_Shkaplerov,
+        ns1:Kayla_Barron,
+        ns1:Mark_Vande_Hei,
+        ns1:Matthias_Maurer,
+        ns1:Pyotr_Dubrov,
+        ns1:Tom_Marshburn .
+
+ns1:Tom_Marshburn a ns1:Crew ;
+    ns1:CrewIn ns1:ISS ;
+    foaf:knows ns1:Anton_Shkaplerov,
+        ns1:Kayla_Barron,
+        ns1:Mark_Vande_Hei,
+        ns1:Matthias_Maurer,
+        ns1:Pyotr_Dubrov,
+        ns1:Raja_Chari .
+
+ns1:ISS a ns1:Craft .
+
